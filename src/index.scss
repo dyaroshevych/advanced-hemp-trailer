@@ -1,0 +1,113 @@
+@keyframes textBackground {
+  0% {
+    background-size: 0 100%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: none;
+  outline: none;
+  font-family: "Poppins", -apple-system, system-ui, sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.heading-primary {
+  display: inline;
+  flex: 1;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 70px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #fff 0, #fff 100%);
+  background-repeat: no-repeat;
+  animation: textBackground 1s linear 0.25s backwards;
+}
+.subheading-primary {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  color: #fff;
+}
+.heading-secondary {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 35px;
+  color: #374048;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.subheading-secondary {
+  position: relative;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #969da3;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.subheading-secondary::after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 5px;
+  background-color: #eeeeee;
+}
+.heading-tertiary {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  color: #374048;
+}
+.heading-quarternary {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  color: #374048;
+}
+.paragraph {
+  font-weight: 30;
+  font-size: 16px;
+  line-height: 28px;
+  color: #737c85;
+}
+.button {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 500px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s linear;
+  transform: translateZ(0);
+
+  &:hover {
+    transform: translateZ(0) scale(1.03);
+  }
+  &--green {
+    background-color: #6e9941;
+    color: #fff;
+  }
+
+  &--gray {
+    background-color: #374048;
+    color: #fff;
+  }
+}
