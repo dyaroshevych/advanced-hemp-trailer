@@ -16,6 +16,7 @@ const Navigation = ({ links }) => {
               spy
               smooth
               duration={500}
+              offset={-70}
             >
               <img
                 className="navigation__logo"

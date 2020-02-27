@@ -30,12 +30,12 @@ ol {
   display: inline;
   flex: 1;
   font-weight: 600;
-  font-size: 55px;
-  line-height: 70px;
+  font-size: 45px;
+  line-height: 50px;
   text-decoration: none;
   background-image: linear-gradient(to right, #fff 0, #fff 100%);
   background-repeat: no-repeat;
-  animation: textBackground 1s linear 0.25s backwards;
+  animation: textBackground 0.75s ease-out 0.25s backwards;
 }
 .subheading-primary {
   margin-top: 30px;

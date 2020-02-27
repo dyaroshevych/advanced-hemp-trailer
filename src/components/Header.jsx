@@ -6,25 +6,23 @@ const Header = () => (
     <header className="header">
       <div className="header__background"></div>
       <div className="header__container wrapper">
-        <Fade left>
+        <Fade up>
           <div className="header__text-container">
             <h1 className="heading-primary underlined">
-              The Future of Hemp Drying is here.
+              A new and advanced hemp drying system is here.
             </h1>
-            <Fade delay={250} left>
+            <Fade delay={100} up>
               <h5 className="subheading-primary">
-                Stop spending excessive money on industrial dryers that are both
-                inefficient in drying and unable to be transported. Start using
-                the first ever high volume, transportable hemp dryer.
+                For over 20 years, we have been an industry leader in providing
+                a product that has been used for drying various agricultural
+                products. Now, we are bringing this same technology to the hemp
+                industry. Our dryer provides a cost effective and transportable
+                means of drying hemp.
               </h5>
             </Fade>
             <div className="header__buttons-container">
-              <Fade delay={1000}>
-                <div className="button button--green">Play Video</div>
-              </Fade>
-              <Fade delay={1250}>
-                <div className="button button--gray">Buy Now</div>
-              </Fade>
+              <div className="button button--green">Play Video</div>
+              <div className="button button--gray">Buy Now</div>
             </div>
           </div>
         </Fade>
