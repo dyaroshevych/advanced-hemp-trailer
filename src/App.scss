@@ -1,3 +1,15 @@
+@keyframes zoomOut {
+  0% {
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  100% {
+    visibility: hidden;
+    transform: scale(0);
+  }
+}
+
 .section {
   padding: 100px 0;
   &__heading {
@@ -116,9 +128,50 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    &-image {
-      border-radius: 5px;
+  }
+
+  &__image {
+    $self: &;
+    border-radius: 5px;
+    width: 100%;
+
+    &-container {
+      position: relative;
       width: calc(33.3333% - 30px);
+      cursor: pointer;
+
+      &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 6px);
+        border-radius: 5px;
+        background-color: rgba(56, 65, 73, 0.9);
+        opacity: 0;
+        transition: opacity 0.25s ease;
+      }
+
+      &:hover::after {
+        opacity: 1;
+      }
+
+      &:hover #{$self}-open-button {
+        opacity: 1;
+      }
+    }
+
+    &-open-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      color: #fff;
+      z-index: 2;
+      opacity: 0;
+      transition: opacity 0.25s ease;
     }
   }
 }
@@ -170,5 +223,56 @@
   .heading-tertiary {
     max-width: 50%;
     text-transform: uppercase;
+  }
+}
+
+.gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  cursor: pointer;
+
+  &--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &--hidden {
+    opacity: 0;
+    animation: zoomOut 0.1s ease forwards;
+  }
+
+  &__controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: #6e9941;
+    }
+  }
+
+  &__item {
+    max-width: 800px;
+    max-height: 80%;
+    cursor: default;
   }
 }

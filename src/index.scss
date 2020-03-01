@@ -22,6 +22,9 @@ ul,
 ol {
   list-style: none;
 }
+button {
+  cursor: pointer;
+}
 .wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -94,7 +97,6 @@ ol {
   padding: 10px 40px;
   border-radius: 500px;
   font-weight: 600;
-  cursor: pointer;
   transition: transform 0.15s linear;
   transform: translateZ(0);
 

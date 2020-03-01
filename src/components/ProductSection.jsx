@@ -1,24 +1,39 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import { FaPlus } from "react-icons/fa";
 import SectionHeading from "./SectionHeading";
 
-const ProductSection = ({ data }) => (
-  <section className="section product">
-    <div className="wrapper">
-      <SectionHeading name={data.name} subheading={data.subheading} />
-      <div className="product__content">
-        {data.images.map((image, idx) => (
-          <Fade key={idx} delay={idx * 300} bottom>
-            <img
-              src={image}
-              alt={`product ${idx}`}
-              className="product__content-image"
-            />
-          </Fade>
-        ))}
+const ProductSection = ({ data, setGallery }) => {
+  const toggleGallery = (idx = 0) => {
+    setGallery({ isOpened: true, activeIdx: idx });
+  };
+
+  return (
+    <section className="section product">
+      <div className="wrapper">
+        <SectionHeading name={data.name} subheading={data.subheading} />
+        <div className="product__content">
+          {data.images.map((image, idx) => (
+            <Fade key={idx} delay={idx * 300} bottom>
+              <div
+                className="product__image-container"
+                onClick={() => toggleGallery(idx)}
+              >
+                <div className="product__image-open-button">
+                  <FaPlus />
+                </div>
+                <img
+                  src={image}
+                  alt={`product ${idx}`}
+                  className="product__image"
+                />
+              </div>
+            </Fade>
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default ProductSection;

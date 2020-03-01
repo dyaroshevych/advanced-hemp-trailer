@@ -21,8 +21,8 @@ const Header = () => (
               </h5>
             </Fade>
             <div className="header__buttons-container">
-              <div className="button button--green">Play Video</div>
-              <div className="button button--gray">Buy Now</div>
+              <button className="button button--green">Play Video</button>
+              <button className="button button--gray">Buy Now</button>
             </div>
           </div>
         </Fade>

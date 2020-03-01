@@ -11,5 +11,6 @@ React libraries used:
 
 - react-reveal
 - react-scroll
+- react-icons
 
 Deployed with: GitHub Pages
