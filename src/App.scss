@@ -1,15 +1,3 @@
-@keyframes zoomOut {
-  0% {
-    visibility: visible;
-    transform: scale(1);
-  }
-
-  100% {
-    visibility: hidden;
-    transform: scale(0);
-  }
-}
-
 .section {
   padding: 100px 0;
   &__heading {
@@ -246,7 +234,7 @@
 
   &--hidden {
     opacity: 0;
-    animation: zoomOut 0.1s ease forwards;
+    visibility: hidden;
   }
 
   &__controls {
