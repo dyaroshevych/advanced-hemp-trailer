@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
-import ProductSection from "./components/ProductSection";
-import HowItWorksSection from "./components/HowItWorksSection";
-import BenefitsSection from "./components/BenefitsSection";
-import SupportSection from "./components/SupportSection";
+import {
+  Navigation,
+  Header,
+  ProductSection,
+  HowItWorksSection,
+  BenefitsSection,
+  SupportSection
+} from "./components";
 import Gallery from "./components/Gallery";
 import ReactPlayer from "react-player";
 
-import data from "./data";
+import { videos, product, howItWorks, benefits } from "./data";
 
 import "./App.scss";
 
@@ -40,26 +42,27 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navigation
-        links={Object.keys(data).map(val => {
-          return { id: val, name: data[val].name };
-        })}
-      />
+      <Navigation links={[product, howItWorks, benefits]} />
       <Header setVideoPlayer={toggleVideoPlayer} />
-      <ProductSection data={data.product} setGallery={setImageGallery} />
-      <HowItWorksSection data={data.howItWorks} />
-      <BenefitsSection data={data.benefits} />
+      <ProductSection data={product} setGallery={setImageGallery} />
+      <HowItWorksSection data={howItWorks} />
+      <BenefitsSection data={benefits} />
       <SupportSection />
       <Gallery
-        items={data.product.images.map((image, idx) => (
-          <img src={image} alt={`Preview ${idx}`} />
+        items={product.images.map((image, idx) => (
+          <img key={idx} src={image} alt={`Preview ${idx}`} />
         ))}
         info={imageGallery}
         setGallery={toggleImageGallery}
       />
       <Gallery
-        items={data.videos.map(url => (
-          <ReactPlayer url={url} controls={true} />
+        items={videos.map((url, idx) => (
+          <ReactPlayer
+            key={idx}
+            url={url}
+            controls={true}
+            playing={videoPlayer.isOpened && videoPlayer.activeIdx === idx}
+          />
         ))}
         info={videoPlayer}
         setGallery={toggleVideoPlayer}

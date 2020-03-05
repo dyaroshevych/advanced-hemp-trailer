@@ -10,69 +10,71 @@ import benefits3Svg from "./assets/img/benefits-3.svg";
 import benefits4Svg from "./assets/img/benefits-4.svg";
 import video1Mov from "./assets/img/video-1.mov";
 
-export default {
-  videos: [video1Mov],
-  product: {
-    name: "The Product",
-    subheading: `The Advanced Hemp Dryer is capable of drying a minimum of 2,000 plants in a 16-20 hour period. Our patented design is 53’ long, 100” wide, and has a 40% open drying floor. This creates an environment where conditioned air, NOT HOT AIR, can dry the hemp in a uniform and efficient manor. 
-    `,
-    images: [productPreview1Jpg, productPreview2Jpg, productPreview3Jpg]
-  },
-  howItWorks: {
-    name: "How It Works",
-    subheading: `The Advanced Hemp Dryer offers the highest technology for drying, all while being easy
-    to use. The drying process is easy to teach to anyone!`,
-    process: [
-      {
-        icon: howItWorks1Svg,
-        name: "Load",
-        description: `After harvesting all of your hemp, load the Advanced Hemp Dryer up to four feet
-        high. Our design allows for easy loading and accessibility.`
-      },
-      {
-        icon: howItWorks2Svg,
-        name: "Dry",
-        description: `Once you have loaded all your hemp, attach the dryer with the specific temperature
-        for your desired terpene levels. Let the dryer run during the day or over the night for
-        your desired results.`
-      },
-      {
-        icon: howItWorks3Svg,
-        name: "Repeat",
-        description: `Once your hemp is dried after a 12-16 hours, unload the Advanced Hemp
-        Dryer and repeat the process.`
-      }
-    ]
-  },
-  benefits: {
-    name: "Our Benefits",
-    subheading: "",
-    items: [
-      {
-        icon: benefits1Svg,
-        name: "Scalability",
-        description: `The Advanced Hemp Dryer is designed in a way to be both cost effective
-        for smaller farmers, but also designed to be scalable for larger operations.`
-      },
-      {
-        icon: benefits2Svg,
-        name: "Transportability",
-        description: `Unlike industrial dryers, the Advanced Hemp Dryer can be transported with ease. Simply hook to the mobile unit and take it to the field where it can be easily loaded. Once loaded, return the unit back to your facility for drying. If you need to move the entire unit from one farm to another, simply load the dryer in the back of the mobile unit and take it to another farming operation down the road.
-        `
-      },
-      {
-        icon: benefits3Svg,
-        name: "High Quality Hemp",
-        description: `Have full control over the drying process. Dictate what Set the thermostat at your desired temperature to achieve the end product that you prefer for your operation/processor. Our design also allows for even drying across all hemp that is loaded in the Advanced Hemp Dryer.`
-      },
-      {
-        icon: benefits4Svg,
-        name: "Durability",
-        description: `The Advanced Hemp Dryer have an average shelf life of 15 years. This is the
-        highest amongst all competitors. With minimal issues and maintenance cost, lose the
-        headache of using other alternatives. Having been in the drying industry since 1995, we
-        understand how to create a high-quality product that lasts!`
-      }
-    ]
-  }
+export const videos = [video1Mov];
+export const product = {
+  id: "product",
+  name: "The Product",
+  subheading: `The Advanced Hemp Dryer is capable of drying a minimum of 2,000 plants in a 16-20 hour period. Our patented design is 53’ long, 100” wide, and has a 40% open drying floor. This creates an environment where conditioned air, NOT HOT AIR, can dry the hemp in a uniform and efficient manor. 
+  `,
+  images: [productPreview1Jpg, productPreview2Jpg, productPreview3Jpg]
+};
+export const howItWorks = {
+  id: "howItWorks",
+  name: "How It Works",
+  subheading: `The Advanced Hemp Dryer offers the highest technology for drying, all while being easy
+  to use. The drying process is easy to teach to anyone!`,
+  process: [
+    {
+      icon: howItWorks1Svg,
+      name: "Load",
+      description: `After harvesting all of your hemp, load the Advanced Hemp Dryer up to four feet
+      high. Our design allows for easy loading and accessibility.`
+    },
+    {
+      icon: howItWorks2Svg,
+      name: "Dry",
+      description: `Once you have loaded all your hemp, attach the dryer with the specific temperature
+      for your desired terpene levels. Let the dryer run during the day or over the night for
+      your desired results.`
+    },
+    {
+      icon: howItWorks3Svg,
+      name: "Repeat",
+      description: `Once your hemp is dried after a 12-16 hours, unload the Advanced Hemp
+      Dryer and repeat the process.`
+    }
+  ]
+};
+
+export const benefits = {
+  id: "benefits",
+  name: "Our Benefits",
+  subheading: "",
+  items: [
+    {
+      icon: benefits1Svg,
+      name: "Scalability",
+      description: `The Advanced Hemp Dryer is designed in a way to be both cost effective
+      for smaller farmers, but also designed to be scalable for larger operations.`
+    },
+    {
+      icon: benefits2Svg,
+      name: "Transportability",
+      description: `Unlike industrial dryers, the Advanced Hemp Dryer can be transported with ease. Simply hook to the mobile unit and take it to the field where it can be easily loaded. Once loaded, return the unit back to your facility for drying. If you need to move the entire unit from one farm to another, simply load the dryer in the back of the mobile unit and take it to another farming operation down the road.
+      `
+    },
+    {
+      icon: benefits3Svg,
+      name: "High Quality Hemp",
+      description: `Have full control over the drying process. Dictate what Set the thermostat at your desired temperature to achieve the end product that you prefer for your operation/processor. Our design also allows for even drying across all hemp that is loaded in the Advanced Hemp Dryer.`
+    },
+    {
+      icon: benefits4Svg,
+      name: "Durability",
+      description: `The Advanced Hemp Dryer have an average shelf life of 15 years. This is the
+      highest amongst all competitors. With minimal issues and maintenance cost, lose the
+      headache of using other alternatives. Having been in the drying industry since 1995, we
+      understand how to create a high-quality product that lasts!`
+    }
+  ]
 };

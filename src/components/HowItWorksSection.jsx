@@ -1,6 +1,7 @@
 import React from "react";
+
+import { SectionHeading } from "./";
 import { Fade } from "react-reveal";
-import SectionHeading from "./SectionHeading";
 
 const HowItWorksSection = ({ data }) => (
   <section className="section how-it-works howItWorks">

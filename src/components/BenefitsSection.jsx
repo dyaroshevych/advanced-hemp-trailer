@@ -1,6 +1,7 @@
 import React from "react";
+
+import { SectionHeading } from "./";
 import { Fade } from "react-reveal";
-import SectionHeading from "./SectionHeading";
 
 const BenefitsSection = ({ data }) => (
   <section className="section benefits">

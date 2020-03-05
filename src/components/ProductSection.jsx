@@ -1,7 +1,8 @@
 import React from "react";
+
+import { SectionHeading } from "./";
 import { Fade } from "react-reveal";
 import { FaPlus } from "react-icons/fa";
-import SectionHeading from "./SectionHeading";
 
 const ProductSection = ({ data, setGallery }) => {
   const toggleGallery = (idx = 0) => {
