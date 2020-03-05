@@ -29,7 +29,7 @@ const Navigation = ({ links }) => {
         <ul className="navigation__links">
           {links.map((link, idx) => (
             <li className="navigation__link-container" key={idx}>
-              <Fade delay={idx * 200}>
+              <Fade delay={idx * 100}>
                 <ScrollLink
                   className="navigation__link"
                   activeClass="active"

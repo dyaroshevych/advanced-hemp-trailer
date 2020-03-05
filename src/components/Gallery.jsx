@@ -26,34 +26,36 @@ const Gallery = ({ items, info: { isOpened, activeIdx }, setGallery }) => {
     });
   };
 
+  const stopPropagation = event => {
+    console.log("1");
+    event.stopPropagation();
+  };
+
   return (
     <Fade duration={150} when={isOpened}>
       <div
         className={`gallery gallery--${isOpened ? "visible" : "hidden"}`}
         onClick={closeGallery}
       >
-        <div className="gallery__controls">
-          <button
-            className="gallery__button"
-            onClick={event => moveSlide(event, -1)}
-          >
-            <FaChevronLeft />
-          </button>
-          <button
-            className="gallery__button"
-            onClick={event => moveSlide(event, 1)}
-          >
-            <FaChevronRight />
-          </button>
+        {items.length > 1 && (
+          <div className="gallery__controls">
+            <button
+              className="gallery__button"
+              onClick={event => moveSlide(event, -1)}
+            >
+              <FaChevronLeft />
+            </button>
+            <button
+              className="gallery__button"
+              onClick={event => moveSlide(event, 1)}
+            >
+              <FaChevronRight />
+            </button>
+          </div>
+        )}
+        <div className="gallery__item" onClick={e => stopPropagation(e)}>
+          {items[activeIdx]}
         </div>
-        <img
-          className="gallery__item"
-          src={items[activeIdx]}
-          alt={`Preview ${activeIdx}`}
-          onClick={e => {
-            e.stopPropagation();
-          }}
-        />
       </div>
     </Fade>
   );

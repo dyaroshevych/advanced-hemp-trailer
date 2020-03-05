@@ -8,8 +8,10 @@ import benefits1Svg from "./assets/img/benefits-1.svg";
 import benefits2Svg from "./assets/img/benefits-2.svg";
 import benefits3Svg from "./assets/img/benefits-3.svg";
 import benefits4Svg from "./assets/img/benefits-4.svg";
+import video1Mov from "./assets/img/video-1.mov";
 
 export default {
+  videos: [video1Mov],
   product: {
     name: "The Product",
     subheading: `The Advanced Hemp Dryer is capable of drying a minimum of 2,000 plants in a 16-20 hour period. Our patented design is 53’ long, 100” wide, and has a 40% open drying floor. This creates an environment where conditioned air, NOT HOT AIR, can dry the hemp in a uniform and efficient manor. 

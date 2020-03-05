@@ -11,7 +11,7 @@ const ProductSection = ({ data, setGallery }) => {
   return (
     <section className="section product">
       <div className="wrapper">
-        <SectionHeading name={data.name} subheading={data.subheading} />
+        <SectionHeading {...data} />
         <div className="product__content">
           {data.images.map((image, idx) => (
             <Fade key={idx} delay={idx * 300} bottom>

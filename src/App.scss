@@ -271,8 +271,13 @@
   }
 
   &__item {
-    max-width: 800px;
-    max-height: 80%;
+    position: relative;
     cursor: default;
+    z-index: 2;
+
+    & img {
+      max-width: 800px;
+      max-height: 80%;
+    }
   }
 }

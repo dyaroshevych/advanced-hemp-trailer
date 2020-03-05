@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-const Header = () => (
+const Header = ({ setVideoPlayer }) => (
   <Fade delay={250}>
     <header className="header">
       <div className="header__background"></div>
@@ -21,7 +21,9 @@ const Header = () => (
               </h5>
             </Fade>
             <div className="header__buttons-container">
-              <button className="button button--green">Play Video</button>
+              <button className="button button--green" onClick={setVideoPlayer}>
+                Play Video
+              </button>
               <button className="button button--gray">Buy Now</button>
             </div>
           </div>

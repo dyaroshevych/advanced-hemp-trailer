@@ -11,6 +11,7 @@ React libraries used:
 
 - react-reveal
 - react-scroll
+- react-player
 - react-icons
 
 Deployed with: GitHub Pages
