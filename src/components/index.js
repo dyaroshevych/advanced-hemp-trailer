@@ -1,6 +1,7 @@
 export { default as Navigation } from "./Navigation";
 export { default as Header } from "./Header";
 export { default as SectionHeading } from "./SectionHeading";
+export { default as AboutSection } from "./AboutSection";
 export { default as ProductSection } from "./ProductSection";
 export { default as HowItWorksSection } from "./HowItWorksSection";
 export { default as BenefitsSection } from "./BenefitsSection";

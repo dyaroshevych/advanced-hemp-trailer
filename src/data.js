@@ -1,3 +1,7 @@
+import about1Jpg from "./assets/img/about-1.jpg";
+import about2Jpg from "./assets/img/about-2.jpg";
+import about3Jpg from "./assets/img/about-3.jpg";
+import about4Jpg from "./assets/img/about-4.jpg";
 import productPreview1Jpg from "./assets/img/product-preview-1.jpg";
 import productPreview2Jpg from "./assets/img/product-preview-2.jpg";
 import productPreview3Jpg from "./assets/img/product-preview-3.jpg";
@@ -11,6 +15,23 @@ import benefits4Svg from "./assets/img/benefits-4.svg";
 import video1Mov from "./assets/img/video-1.mov";
 
 export const videos = [video1Mov];
+
+export const about = {
+  id: "about",
+  name: "About Us",
+  subheading: "",
+  content: [
+    `Advanced Hemp has been providing drying units since 1995. We are the
+  largest manufacturer in the peanut industry with over 10,000 of our
+  units currently in use.`,
+    `Working with someone of our experience assures
+  you always receiving the best product at the best price available on
+  the market. We are continually working to revolutionize and improve
+  the drying and transportation industry day by day.`
+  ],
+  images: [about1Jpg, about2Jpg, about3Jpg, about4Jpg]
+};
+
 export const product = {
   id: "product",
   name: "The Product",
@@ -18,6 +39,7 @@ export const product = {
   `,
   images: [productPreview1Jpg, productPreview2Jpg, productPreview3Jpg]
 };
+
 export const howItWorks = {
   id: "howItWorks",
   name: "How It Works",

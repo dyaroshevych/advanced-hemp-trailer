@@ -3,11 +3,13 @@ import React from "react";
 import { SectionHeading } from "./";
 import { Fade } from "react-reveal";
 
-const HowItWorksSection = ({ data }) => (
+import { howItWorks } from "../data";
+
+const HowItWorksSection = () => (
   <section className="section how-it-works howItWorks">
-    <SectionHeading name={data.name} subheading={data.subheading} />
+    <SectionHeading name={howItWorks.name} subheading={howItWorks.subheading} />
     <div className="howItWorks__content wrapper">
-      {data.process.map((item, idx) => (
+      {howItWorks.process.map((item, idx) => (
         <Fade key={idx} delay={idx * 200} bottom>
           <div className="howItWorks__item">
             <img

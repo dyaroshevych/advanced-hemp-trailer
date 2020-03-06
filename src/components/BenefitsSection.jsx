@@ -3,11 +3,13 @@ import React from "react";
 import { SectionHeading } from "./";
 import { Fade } from "react-reveal";
 
-const BenefitsSection = ({ data }) => (
+import { benefits } from "../data";
+
+const BenefitsSection = () => (
   <section className="section benefits">
-    <SectionHeading name={data.name} subheading={data.subheading} />
+    <SectionHeading name={benefits.name} subheading={benefits.subheading} />
     <div className="benefits__content wrapper">
-      {data.items.map((item, idx) => (
+      {benefits.items.map((item, idx) => (
         <Fade
           key={idx}
           delay={Math.floor(idx / 2) * 200}

@@ -27,7 +27,6 @@ const Gallery = ({ items, info: { isOpened, activeIdx }, setGallery }) => {
   };
 
   const stopPropagation = event => {
-    console.log("1");
     event.stopPropagation();
   };
 
