@@ -37,29 +37,28 @@ button {
 .heading-primary {
   display: inline;
   flex: 1;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 45px;
   line-height: 50px;
   color: #fff;
 }
 .subheading-primary {
   margin-top: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 33px;
   color: #fff;
 }
 .heading-secondary {
-  font-weight: 400;
-  font-size: 45px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 35px;
-  color: #374048;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 .subheading-secondary {
   position: relative;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   color: #969da3;
@@ -77,22 +76,19 @@ button {
   background-color: #eeeeee;
 }
 .heading-tertiary {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 26px;
   line-height: 35px;
-  color: #374048;
 }
 .heading-quarternary {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22px;
   line-height: 25px;
-  color: #374048;
 }
 .paragraph {
-  font-weight: 30;
+  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  color: #737c85;
 }
 .button {
   display: inline-block;

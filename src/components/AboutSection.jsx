@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div className="about__text-container">
           {about.content.map((paragraph, idx) => (
             <Fade key={idx} delay={idx * 50} bottom>
-              <p className="about__text-paragraph">{paragraph}</p>
+              <p className="about__text-paragraph paragraph">{paragraph}</p>
             </Fade>
           ))}
         </div>
