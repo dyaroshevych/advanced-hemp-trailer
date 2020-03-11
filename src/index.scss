@@ -37,13 +37,10 @@ button {
 .heading-primary {
   display: inline;
   flex: 1;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 45px;
   line-height: 50px;
-  text-decoration: none;
-  background-image: linear-gradient(to right, #fff 0, #fff 100%);
-  background-repeat: no-repeat;
-  animation: textBackground 0.75s ease-out 0.25s backwards;
+  color: #fff;
 }
 .subheading-primary {
   margin-top: 30px;
@@ -53,7 +50,7 @@ button {
   color: #fff;
 }
 .heading-secondary {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 45px;
   line-height: 35px;
   color: #374048;
@@ -80,13 +77,13 @@ button {
   background-color: #eeeeee;
 }
 .heading-tertiary {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 26px;
   line-height: 35px;
   color: #374048;
 }
 .heading-quarternary {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
   line-height: 25px;
   color: #374048;
@@ -99,9 +96,10 @@ button {
 }
 .button {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 10px 45px;
   border-radius: 500px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 18px;
   transition: transform 0.15s linear;
   transform: translateZ(0);
 

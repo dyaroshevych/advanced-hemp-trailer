@@ -37,7 +37,7 @@
 
   &__link {
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 35px;
     color: #374048;
@@ -77,12 +77,18 @@
 
 .header {
   position: relative;
-  margin-top: 70px;
+  margin: 90px 20px 20px;
   padding: 100px 0;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 110px);
   display: flex;
   align-items: center;
   background: url(./assets/img/header-bg.jpg) center / cover no-repeat;
+  text-align: center;
+
+  &,
+  &__background {
+    border-radius: 10px;
+  }
 
   &__background {
     position: absolute;
@@ -92,6 +98,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
 
   &__container {
@@ -102,10 +109,11 @@
 
   &__text-container {
     max-width: 700px;
+    margin: 0 auto;
   }
 
   &__buttons-container {
-    margin-top: 25px;
+    margin-top: 50px;
     .button:first-of-type {
       margin-right: 10px;
     }

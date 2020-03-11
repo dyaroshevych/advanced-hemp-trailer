@@ -21,13 +21,8 @@ export const about = {
   name: "About Us",
   subheading: "",
   content: [
-    `Advanced Hemp has been providing drying units since 1995. We are the
-  largest manufacturer in the peanut industry with over 10,000 of our
-  units currently in use.`,
-    `Working with someone of our experience assures
-  you always receiving the best product at the best price available on
-  the market. We are continually working to revolutionize and improve
-  the drying and transportation industry day by day.`
+    `With over 100 combined years of experience producing agricultural machinery, Advanced Trailer and LMC Manufacturing have teamed up to create a new and advanced hemp drying solution for farmers.`,
+    `We are currently the largest supplier of processing machinery for the peanut, almond, and hazelnut industries. Tens of thousands of our drying units are in use currently and our track record speaks for itself. With our equipment in use in six different continents, we have cemented ourselves as the pinnacle of reliability.`
   ],
   images: [about1Jpg, about2Jpg, about3Jpg, about4Jpg]
 };

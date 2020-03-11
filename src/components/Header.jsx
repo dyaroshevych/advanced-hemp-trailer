@@ -28,9 +28,9 @@ const Header = () => {
             <Fade up>
               <div className="header__text-container">
                 <h1 className="heading-primary underlined">
-                  A new and advanced hemp drying system is here.
+                  A New and Advanced Hemp Drying System is here
                 </h1>
-                <Fade delay={100} up>
+                {/* <Fade delay={100} up>
                   <h5 className="subheading-primary">
                     For over 20 years, we have been an industry leader in
                     providing a product that has been used for drying various
@@ -38,7 +38,7 @@ const Header = () => {
                     technology to the hemp industry. Our dryer provides a cost
                     effective and transportable means of drying hemp.
                   </h5>
-                </Fade>
+                </Fade> */}
                 <div className="header__buttons-container">
                   <button
                     className="button button--green"
