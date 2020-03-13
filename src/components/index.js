@@ -6,3 +6,5 @@ export { default as ProductSection } from "./ProductSection";
 export { default as HowItWorksSection } from "./HowItWorksSection";
 export { default as BenefitsSection } from "./BenefitsSection";
 export { default as SupportSection } from "./SupportSection";
+export { default as Gallery } from "./Gallery";
+export { default as Image } from "./Image";
