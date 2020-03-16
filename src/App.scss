@@ -59,10 +59,6 @@
   }
 }
 
-.header {
-  box-shadow: 0px 1px 10px -2px rgba(34, 34, 34, 0.2);
-}
-
 .navigation {
   $self: &;
   position: fixed;
@@ -82,9 +78,9 @@
 
   &__logo {
     &-container {
-      height: 50px;
+      height: 70px;
     }
-    height: 50px;
+    height: 70px;
     cursor: pointer;
   }
 
@@ -130,9 +126,10 @@
 
 .header {
   position: relative;
-  margin: 80px 20px 20px;
+  margin: 100px 20px 20px;
   padding: 100px 0;
-  min-height: calc(100vh - 110px);
+  min-height: calc(100vh - 130px);
+  box-shadow: 0px 1px 10px -2px rgba(34, 34, 34, 0.2);
   display: flex;
   align-items: center;
   background: url(./assets/img/header-bg.jpg) center / cover no-repeat;
