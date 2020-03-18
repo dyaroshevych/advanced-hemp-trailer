@@ -56,7 +56,7 @@ const Navigation = ({ links }) => {
             ))}
             <li className="navigation__link-container" onClick={toggleForm}>
               <Fade delay={links.length * 100}>
-                <Button color="gray">Contact Us</Button>
+                <Button color="green">Contact Us</Button>
               </Fade>
             </li>
           </ul>

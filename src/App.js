@@ -20,10 +20,10 @@ const App = () => {
     <div className="App">
       <Navigation links={[product, howItWorks, benefits, about]} />
       <Header />
-      <VideoSection />
       <ProductSection />
       <HowItWorksSection />
       <BenefitsSection />
+      <VideoSection />
       <AboutSection />
       <SupportSection />
     </div>
