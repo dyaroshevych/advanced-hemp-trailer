@@ -21,7 +21,7 @@ export const about = {
   name: "About Us",
   subheading: "",
   content: [
-    `With over 100 combined years of experience producing agricultural machinery, Advanced Trailer and LMC Manufacturing have teamed up to create a new and advanced hemp drying solution for farmers.`,
+    `With over 100 combined years of experience producing agricultural machinery, Advanced Trailer and LMC Manufacturing have teamed up to create a new and advanced hemp drying solution for growers.`,
     `We are currently the largest supplier of processing machinery for the peanut, almond, and hazelnut industries. Tens of thousands of our drying units are in use currently and our track record speaks for itself. With our equipment in use in six different continents, we have cemented ourselves as the pinnacle of reliability.`
   ],
   images: [about1Jpg, about2Jpg, about3Jpg, about4Jpg]
@@ -44,21 +44,17 @@ export const howItWorks = {
     {
       icon: howItWorks1Svg,
       name: "Load",
-      description: `After harvesting all of your hemp, load the Advanced Hemp Dryer up to four feet
-      high. Our design allows for easy loading and accessibility.`
+      description: `After harvesting all of your hemp plants, load the Advanced Hemp Dryer up to four feet high. Our design allows for easy loading and accessibility.`
     },
     {
       icon: howItWorks2Svg,
       name: "Dry",
-      description: `Once you have loaded all your hemp, attach the dryer with the specific temperature
-      for your desired terpene levels. Let the dryer run during the day or over the night for
-      your desired results.`
+      description: `Once you have loaded all your hemp plants, attach the dryer which can be set to your preferred temperature. Let the dryer run during the day or over the night for your desired results.`
     },
     {
       icon: howItWorks3Svg,
       name: "Repeat",
-      description: `Once your hemp is dried after a 12-16 hours, unload the Advanced Hemp
-      Dryer and repeat the process.`
+      description: `Once your hemp is dried, usually around 12-16 hours depending on the environment conditions, unload the Advanced Hemp Dryer and repeat the process.`
     }
   ]
 };
@@ -83,15 +79,12 @@ export const benefits = {
     {
       icon: benefits3Svg,
       name: "High Quality Hemp",
-      description: `Have full control over the drying process. Dictate what Set the thermostat at your desired temperature to achieve the end product that you prefer for your operation/processor. Our design also allows for even drying across all hemp that is loaded in the Advanced Hemp Dryer.`
+      description: `Have full control over the drying process. Set the thermostat at your desired temperature to achieve the end product that you prefer for your operation/processor. Our design also allows for even drying across all of your hemp plants that are loaded in the Advanced Hemp Dryer.`
     },
     {
       icon: benefits4Svg,
       name: "Durability",
-      description: `The Advanced Hemp Dryer have an average shelf life of 15 years. This is the
-      highest amongst all competitors. With minimal issues and maintenance cost, lose the
-      headache of using other alternatives. Having been in the drying industry since 1995, we
-      understand how to create a high-quality product that lasts!`
+      description: `The Advanced Hemp Dryer has an average shelf life of 15 years. This is the highest amongst all competitors. With minimal issues and maintenance cost, lose the headache of using other alternatives. Having been in the drying industry since 1995, we understand how to create a high-quality product that lasts!`
     }
   ]
 };

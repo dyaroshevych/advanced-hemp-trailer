@@ -36,7 +36,7 @@ const Navigation = ({ links }) => {
         </li>
         <li>
           <ul className="navigation__links">
-            {links.map((link, idx) => (
+            {/* {links.map((link, idx) => (
               <li className="navigation__link-container" key={idx}>
                 <Fade delay={idx * 100}>
                   <ScrollLink
@@ -52,7 +52,7 @@ const Navigation = ({ links }) => {
                   </ScrollLink>
                 </Fade>
               </li>
-            ))}
+            ))} */}
             <li className="navigation__link-container" onClick={toggleForm}>
               <Fade delay={links.length * 100}>
                 <Button color="green">Contact Us</Button>
