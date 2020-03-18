@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/advanced-hemp-trailer/static/css/main.2bedd9f6.chunk.css",
+    "main.css": "/advanced-hemp-trailer/static/css/main.e9487939.chunk.css",
     "main.js": "/advanced-hemp-trailer/static/js/main.f122efb9.chunk.js",
     "main.js.map": "/advanced-hemp-trailer/static/js/main.f122efb9.chunk.js.map",
     "runtime-main.js": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js",
@@ -8,9 +8,9 @@
     "static/js/2.dd152b6b.chunk.js": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js",
     "static/js/2.dd152b6b.chunk.js.map": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js.map",
     "index.html": "/advanced-hemp-trailer/index.html",
-    "precache-manifest.73932daa1b6d5d205d90fca12563b14c.js": "/advanced-hemp-trailer/precache-manifest.73932daa1b6d5d205d90fca12563b14c.js",
+    "precache-manifest.b2421154322a65ad977400a759636039.js": "/advanced-hemp-trailer/precache-manifest.b2421154322a65ad977400a759636039.js",
     "service-worker.js": "/advanced-hemp-trailer/service-worker.js",
-    "static/css/main.2bedd9f6.chunk.css.map": "/advanced-hemp-trailer/static/css/main.2bedd9f6.chunk.css.map",
+    "static/css/main.e9487939.chunk.css.map": "/advanced-hemp-trailer/static/css/main.e9487939.chunk.css.map",
     "static/js/2.dd152b6b.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js.LICENSE.txt",
     "static/media/about-1.jpg": "/advanced-hemp-trailer/static/media/about-1.1250f83a.jpg",
     "static/media/about-2.jpg": "/advanced-hemp-trailer/static/media/about-2.f46487f3.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.7eb5c5b6.js",
     "static/js/2.dd152b6b.chunk.js",
-    "static/css/main.2bedd9f6.chunk.css",
+    "static/css/main.e9487939.chunk.css",
     "static/js/main.f122efb9.chunk.js"
   ]
 }
