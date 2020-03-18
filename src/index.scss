@@ -27,9 +27,6 @@ ul,
 ol {
   list-style: none;
 }
-button {
-  cursor: pointer;
-}
 .wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -61,7 +58,6 @@ button {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
-  // color: #fff;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -89,26 +85,4 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-}
-.button {
-  display: inline-block;
-  padding: 10px 45px;
-  border-radius: 500px;
-  font-weight: 500;
-  font-size: 18px;
-  transition: transform 0.15s linear;
-  transform: translateZ(0);
-
-  &:hover {
-    transform: translateZ(0) scale(1.03);
-  }
-  &--green {
-    background-color: #6e9941;
-    color: #fff;
-  }
-
-  &--gray {
-    background-color: #374048;
-    color: #fff;
-  }
 }

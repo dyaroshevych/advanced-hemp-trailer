@@ -36,7 +36,7 @@ export const product = {
 };
 
 export const howItWorks = {
-  id: "howItWorks",
+  id: "how-it-works",
   name: "How It Works",
   subheading: `The Advanced Hemp Dryer offers the highest technology for drying, all while being easy
   to use. The drying process is easy to teach to anyone!`,

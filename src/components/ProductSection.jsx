@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { SectionHeading, Gallery, Image } from "./";
+import { SectionHeading, Popup, Image } from "./";
 
 import { product } from "../data";
 
@@ -31,12 +31,12 @@ const ProductSection = () => {
           </div>
         </div>
 
-        <Gallery
+        <Popup
           items={product.images.map((image, idx) => (
             <img key={idx} src={image} alt={`Product preview ${idx}`} />
           ))}
           info={imageGallery}
-          setGallery={toggleImageGallery}
+          setPopup={toggleImageGallery}
         />
       </section>
     </div>

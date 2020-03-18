@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
-import { SectionHeading, Gallery, Image } from "./";
 import { Fade } from "react-reveal";
+
+import { SectionHeading, Popup, Image } from "./";
 
 import { about } from "../data";
 
@@ -38,12 +38,12 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-        <Gallery
+        <Popup
           items={about.images.map((image, idx) => (
             <img key={idx} src={image} alt={`About preview ${idx}`} />
           ))}
           info={imageGallery}
-          setGallery={toggleImageGallery}
+          setPopup={toggleImageGallery}
         />
       </section>
     </div>

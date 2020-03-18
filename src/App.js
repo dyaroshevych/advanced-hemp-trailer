@@ -3,6 +3,7 @@ import React from "react";
 import {
   Navigation,
   Header,
+  VideoSection,
   AboutSection,
   ProductSection,
   HowItWorksSection,
@@ -17,12 +18,13 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="App">
-      <Navigation links={[about, product, howItWorks, benefits]} />
+      <Navigation links={[product, howItWorks, benefits, about]} />
       <Header />
-      <AboutSection />
+      <VideoSection />
       <ProductSection />
       <HowItWorksSection />
       <BenefitsSection />
+      <AboutSection />
       <SupportSection />
     </div>
   );

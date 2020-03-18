@@ -1,7 +1,7 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 import { SectionHeading } from "./";
-import { Fade } from "react-reveal";
 
 import { howItWorks } from "../data";
 
