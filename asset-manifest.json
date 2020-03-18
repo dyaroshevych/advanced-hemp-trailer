@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/advanced-hemp-trailer/static/css/main.ea448783.chunk.css",
-    "main.js": "/advanced-hemp-trailer/static/js/main.f41101ef.chunk.js",
-    "main.js.map": "/advanced-hemp-trailer/static/js/main.f41101ef.chunk.js.map",
+    "main.css": "/advanced-hemp-trailer/static/css/main.2bedd9f6.chunk.css",
+    "main.js": "/advanced-hemp-trailer/static/js/main.f122efb9.chunk.js",
+    "main.js.map": "/advanced-hemp-trailer/static/js/main.f122efb9.chunk.js.map",
     "runtime-main.js": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js",
     "runtime-main.js.map": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js.map",
-    "static/js/2.23713e95.chunk.js": "/advanced-hemp-trailer/static/js/2.23713e95.chunk.js",
-    "static/js/2.23713e95.chunk.js.map": "/advanced-hemp-trailer/static/js/2.23713e95.chunk.js.map",
+    "static/js/2.dd152b6b.chunk.js": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js",
+    "static/js/2.dd152b6b.chunk.js.map": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js.map",
     "index.html": "/advanced-hemp-trailer/index.html",
-    "precache-manifest.3382cd956377b5b518fd2b3415852d09.js": "/advanced-hemp-trailer/precache-manifest.3382cd956377b5b518fd2b3415852d09.js",
+    "precache-manifest.73932daa1b6d5d205d90fca12563b14c.js": "/advanced-hemp-trailer/precache-manifest.73932daa1b6d5d205d90fca12563b14c.js",
     "service-worker.js": "/advanced-hemp-trailer/service-worker.js",
-    "static/css/main.ea448783.chunk.css.map": "/advanced-hemp-trailer/static/css/main.ea448783.chunk.css.map",
-    "static/js/2.23713e95.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.23713e95.chunk.js.LICENSE.txt",
+    "static/css/main.2bedd9f6.chunk.css.map": "/advanced-hemp-trailer/static/css/main.2bedd9f6.chunk.css.map",
+    "static/js/2.dd152b6b.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.dd152b6b.chunk.js.LICENSE.txt",
     "static/media/about-1.jpg": "/advanced-hemp-trailer/static/media/about-1.1250f83a.jpg",
     "static/media/about-2.jpg": "/advanced-hemp-trailer/static/media/about-2.f46487f3.jpg",
     "static/media/about-3.jpg": "/advanced-hemp-trailer/static/media/about-3.048fd00a.jpg",
@@ -24,7 +24,7 @@
     "static/media/how-it-works-1.svg": "/advanced-hemp-trailer/static/media/how-it-works-1.aa99b1da.svg",
     "static/media/how-it-works-2.svg": "/advanced-hemp-trailer/static/media/how-it-works-2.52da809e.svg",
     "static/media/how-it-works-3.svg": "/advanced-hemp-trailer/static/media/how-it-works-3.3449d045.svg",
-    "static/media/logo.png": "/advanced-hemp-trailer/static/media/logo.17281506.png",
+    "static/media/logo.png": "/advanced-hemp-trailer/static/media/logo.53bf045f.png",
     "static/media/product-preview-1.jpg": "/advanced-hemp-trailer/static/media/product-preview-1.306363a1.jpg",
     "static/media/product-preview-2.jpg": "/advanced-hemp-trailer/static/media/product-preview-2.9e250e48.jpg",
     "static/media/product-preview-3.jpg": "/advanced-hemp-trailer/static/media/product-preview-3.19ce5b99.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7eb5c5b6.js",
-    "static/js/2.23713e95.chunk.js",
-    "static/css/main.ea448783.chunk.css",
-    "static/js/main.f41101ef.chunk.js"
+    "static/js/2.dd152b6b.chunk.js",
+    "static/css/main.2bedd9f6.chunk.css",
+    "static/js/main.f122efb9.chunk.js"
   ]
 }
