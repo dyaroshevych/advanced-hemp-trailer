@@ -10,7 +10,6 @@ const Navigation = ({ links }) => {
   const [formOpened, setFormOpened] = useState(false);
 
   const toggleForm = () => {
-    console.log(!formOpened);
     setFormOpened(!formOpened);
   };
 
@@ -89,6 +88,7 @@ const Navigation = ({ links }) => {
           />
         ]}
         info={{ isOpened: formOpened, activeIdx: 0 }}
+        setPopup={toggleForm}
       />
     </nav>
   );
