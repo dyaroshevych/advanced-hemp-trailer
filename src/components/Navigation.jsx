@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Fade } from "react-reveal";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 import { Popup, Button, Form } from "./";
 
@@ -36,7 +37,7 @@ const Navigation = ({ links }) => {
         </li>
         <li>
           <ul className="navigation__links">
-            {links.map((link, idx) => (
+            {/* {links.map((link, idx) => (
               <li className="navigation__link-container" key={idx}>
                 <Fade delay={idx * 100}>
                   <ScrollLink
@@ -52,10 +53,31 @@ const Navigation = ({ links }) => {
                   </ScrollLink>
                 </Fade>
               </li>
+            ))} */}
+            {[
+              {
+                icon: <FaPhone />,
+                content: "+1 (800) 860-1360",
+                link: "tel:+1 (800) 860-1360"
+              },
+              {
+                icon: <FaEnvelope />,
+                content: "info@advancedhemptrailer.com",
+                link: "mailto:info@advancedhemptrailer.com"
+              }
+            ].map(({ icon, content, link }, idx) => (
+              <li className="navigation__link-container" key={idx}>
+                <Fade delay={idx * 100}>
+                  <a className="navigation__link" href={link}>
+                    <span className="navigation__link-icon">{icon}</span>
+                    {content}
+                  </a>
+                </Fade>
+              </li>
             ))}
             <li className="navigation__link-container" onClick={toggleForm}>
               <Fade delay={links.length * 100}>
-                <Button color="green">Contact Us</Button>
+                <Button color="green">Get In Touch</Button>
               </Fade>
             </li>
           </ul>
