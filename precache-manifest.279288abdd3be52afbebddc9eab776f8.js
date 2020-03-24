@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0a16eef81d9c6628e3251b5f7dd5c0e",
+    "revision": "5cb36ec27a94296781478847563cd977",
     "url": "/advanced-hemp-trailer/index.html"
   },
   {
-    "revision": "d70014911e96ffba11e7",
+    "revision": "b7190c56800d2e306581",
     "url": "/advanced-hemp-trailer/static/css/main.7f94b069.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advanced-hemp-trailer/static/js/2.7dbafdd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d70014911e96ffba11e7",
-    "url": "/advanced-hemp-trailer/static/js/main.663a55cf.chunk.js"
+    "revision": "b7190c56800d2e306581",
+    "url": "/advanced-hemp-trailer/static/js/main.30cf57f9.chunk.js"
   },
   {
     "revision": "366aa02e508b8bf898d4",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advanced-hemp-trailer/static/media/how-it-works-3.3449d045.svg"
   },
   {
-    "revision": "09ac252109e10755bd0432528d5b4dda",
-    "url": "/advanced-hemp-trailer/static/media/logo.09ac2521.png"
+    "revision": "3aaeaadd902d7cb91aeaa734d8edb799",
+    "url": "/advanced-hemp-trailer/static/media/logo.3aaeaadd.png"
   },
   {
     "revision": "306363a1f779c7c84198f84cd11aaa8e",
