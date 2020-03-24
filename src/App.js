@@ -8,7 +8,8 @@ import {
   ProductSection,
   HowItWorksSection,
   BenefitsSection,
-  SupportSection
+  SupportSection,
+  Footer
 } from "./components";
 
 import { about, product, howItWorks, benefits } from "./data";
@@ -26,6 +27,7 @@ const App = () => {
       <VideoSection />
       <AboutSection />
       <SupportSection />
+      <Footer />
     </div>
   );
 };

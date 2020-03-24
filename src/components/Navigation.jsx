@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Fade } from "react-reveal";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
 
-import { Popup, Button, Form } from "./";
+import { ContactInfo, Popup, Button, Form } from "./";
 
 import logoPng from "../assets/img/logo.png";
 
@@ -17,6 +16,12 @@ const Navigation = ({ links }) => {
   return (
     <nav className="navigation">
       <ul className="navigation__list wrapper">
+        <li>
+          <ContactInfo
+            className="navigation__links"
+            info={["phone", "email"]}
+          />
+        </li>
         <li className="navigation__logo-container">
           <Fade>
             <ScrollLink
@@ -25,7 +30,7 @@ const Navigation = ({ links }) => {
               spy
               smooth
               duration={500}
-              offset={-70}
+              offset={-130}
             >
               <img
                 className="navigation__logo"
@@ -35,52 +40,10 @@ const Navigation = ({ links }) => {
             </ScrollLink>
           </Fade>
         </li>
-        <li>
-          <ul className="navigation__links">
-            {/* {links.map((link, idx) => (
-              <li className="navigation__link-container" key={idx}>
-                <Fade delay={idx * 100}>
-                  <ScrollLink
-                    className="navigation__link"
-                    activeClass="active"
-                    to={link.id}
-                    spy
-                    smooth
-                    offset={-70}
-                    duration={500}
-                  >
-                    {link.id.split("-").join(" ")}
-                  </ScrollLink>
-                </Fade>
-              </li>
-            ))} */}
-            {[
-              {
-                icon: <FaPhone />,
-                content: "+1 (800) 860-1360",
-                link: "tel:+1 (800) 860-1360"
-              },
-              {
-                icon: <FaEnvelope />,
-                content: "info@advancedhemptrailer.com",
-                link: "mailto:info@advancedhemptrailer.com"
-              }
-            ].map(({ icon, content, link }, idx) => (
-              <li className="navigation__link-container" key={idx}>
-                <Fade delay={idx * 100}>
-                  <a className="navigation__link" href={link}>
-                    <span className="navigation__link-icon">{icon}</span>
-                    {content}
-                  </a>
-                </Fade>
-              </li>
-            ))}
-            <li className="navigation__link-container" onClick={toggleForm}>
-              <Fade delay={links.length * 100}>
-                <Button color="green">Get In Touch</Button>
-              </Fade>
-            </li>
-          </ul>
+        <li className="navigation__link-container" onClick={toggleForm}>
+          <Fade delay={links.length * 100}>
+            <Button color="green">Get In Touch</Button>
+          </Fade>
         </li>
       </ul>
       <Popup
