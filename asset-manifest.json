@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/advanced-hemp-trailer/static/css/main.c376f2c7.chunk.css",
-    "main.js": "/advanced-hemp-trailer/static/js/main.d308a0de.chunk.js",
-    "main.js.map": "/advanced-hemp-trailer/static/js/main.d308a0de.chunk.js.map",
+    "main.js": "/advanced-hemp-trailer/static/js/main.468dcc9f.chunk.js",
+    "main.js.map": "/advanced-hemp-trailer/static/js/main.468dcc9f.chunk.js.map",
     "runtime-main.js": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js",
     "runtime-main.js.map": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js.map",
     "static/js/2.7dbafdd3.chunk.js": "/advanced-hemp-trailer/static/js/2.7dbafdd3.chunk.js",
     "static/js/2.7dbafdd3.chunk.js.map": "/advanced-hemp-trailer/static/js/2.7dbafdd3.chunk.js.map",
     "index.html": "/advanced-hemp-trailer/index.html",
-    "precache-manifest.be5289a0467b0aa4444444377cdaa34f.js": "/advanced-hemp-trailer/precache-manifest.be5289a0467b0aa4444444377cdaa34f.js",
+    "precache-manifest.5da1d82623107bb161aaa7470279252d.js": "/advanced-hemp-trailer/precache-manifest.5da1d82623107bb161aaa7470279252d.js",
     "service-worker.js": "/advanced-hemp-trailer/service-worker.js",
     "static/css/main.c376f2c7.chunk.css.map": "/advanced-hemp-trailer/static/css/main.c376f2c7.chunk.css.map",
     "static/js/2.7dbafdd3.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.7dbafdd3.chunk.js.LICENSE.txt",
@@ -25,15 +25,15 @@
     "static/media/how-it-works-2.svg": "/advanced-hemp-trailer/static/media/how-it-works-2.52da809e.svg",
     "static/media/how-it-works-3.svg": "/advanced-hemp-trailer/static/media/how-it-works-3.3449d045.svg",
     "static/media/logo.png": "/advanced-hemp-trailer/static/media/logo.3aaeaadd.png",
-    "static/media/product-preview-1.jpg": "/advanced-hemp-trailer/static/media/product-preview-1.198d7c61.jpg",
-    "static/media/product-preview-2.jpg": "/advanced-hemp-trailer/static/media/product-preview-2.4587a2ad.jpg",
-    "static/media/product-preview-3.jpg": "/advanced-hemp-trailer/static/media/product-preview-3.b9f745d7.jpg",
+    "static/media/product-preview-1.jpg": "/advanced-hemp-trailer/static/media/product-preview-1.d4fde33f.jpg",
+    "static/media/product-preview-2.jpg": "/advanced-hemp-trailer/static/media/product-preview-2.2c36a633.jpg",
+    "static/media/product-preview-3.jpg": "/advanced-hemp-trailer/static/media/product-preview-3.80ab002b.jpg",
     "static/media/video-1.mov": "/advanced-hemp-trailer/static/media/video-1.546b9e84.mov"
   },
   "entrypoints": [
     "static/js/runtime-main.7eb5c5b6.js",
     "static/js/2.7dbafdd3.chunk.js",
     "static/css/main.c376f2c7.chunk.css",
-    "static/js/main.d308a0de.chunk.js"
+    "static/js/main.468dcc9f.chunk.js"
   ]
 }
