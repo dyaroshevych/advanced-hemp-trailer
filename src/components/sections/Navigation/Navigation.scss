@@ -1,0 +1,24 @@
+.Navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 26px 0;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.12);
+
+  &_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_logoContainer {
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

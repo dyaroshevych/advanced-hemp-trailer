@@ -1,0 +1,22 @@
+.ContactInfo {
+  &_link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.25s ease;
+
+    &Icon {
+      height: 16px;
+      margin-right: 10px;
+    }
+
+    &Container {
+      &:not(:last-of-type) {
+        margin-right: 30px;
+      }
+    }
+  }
+}

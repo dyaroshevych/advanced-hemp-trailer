@@ -1,0 +1,22 @@
+.Footer {
+  .Section_content {
+    padding: 30px 0;
+  }
+
+  &_links,
+  &_social {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_links {
+    margin-bottom: 20px;
+  }
+
+  &_social {
+    .ContactInfo_linkIcon {
+      font-size: 25px;
+      color: #6e9941;
+    }
+  }
+}

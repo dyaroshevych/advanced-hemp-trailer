@@ -1,0 +1,40 @@
+.About {
+  &_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_imageContainer {
+    width: calc(66.6666% - 15px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    & .Image_container {
+      width: calc(50% - 10px);
+
+      &:nth-of-type(n + 3) {
+        margin-top: 20px;
+      }
+
+      & .image {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+      }
+    }
+  }
+
+  &_text {
+    &Container {
+      width: calc(33.3333% - 15px);
+    }
+
+    &Paragraph {
+      &:not(:last-of-type) {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

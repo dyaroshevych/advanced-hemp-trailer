@@ -1,0 +1,9 @@
+export { default as SectionHeading } from "./SectionHeading/SectionHeading";
+export { default as PopupSlider } from "./PopupSlider/PopupSlider";
+export { default as Image } from "./Image/Image";
+export { default as Button } from "./Button/Button";
+export { default as Form } from "./Form/Form";
+export { default as Modal } from "./Modal/Modal";
+export { default as Backdrop } from "./Backdrop/Backdrop";
+export { default as Logo } from "./Logo/Logo";
+export { default as ContactInfo } from "./ContactInfo/ContactInfo";

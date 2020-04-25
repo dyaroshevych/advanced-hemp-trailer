@@ -1,0 +1,12 @@
+.Product {
+  &_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_content {
+    & .Image_container {
+      width: calc(33.3333% - 30px);
+    }
+  }
+}

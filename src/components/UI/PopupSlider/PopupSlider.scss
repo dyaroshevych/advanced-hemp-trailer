@@ -1,0 +1,50 @@
+.PopupSlider {
+  &_controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_controlButton {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #6e9941;
+    background-color: #6e9941;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 5px;
+    transition: border-color 0.15s ease;
+    box-shadow: 0 2px 7px -2px rgba(0, 0, 0, 0.5);
+
+    &:first-of-type {
+      transform: translateX(-50%);
+    }
+
+    &:last-of-type {
+      transform: translateX(50%);
+    }
+
+    &:hover {
+      border-color: #fff;
+    }
+  }
+
+  &_item {
+    position: relative;
+    cursor: default;
+    z-index: 2;
+
+    & img {
+      max-width: 800px;
+      max-height: 80vh;
+    }
+  }
+}

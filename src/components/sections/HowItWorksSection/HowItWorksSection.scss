@@ -1,0 +1,20 @@
+.HowItWorks {
+  &_content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_item {
+    width: calc(33.3333% - 30px);
+    text-align: center;
+
+    &Image {
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+}

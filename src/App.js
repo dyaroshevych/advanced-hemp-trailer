@@ -1,25 +1,21 @@
 import React from "react";
 
 import {
+  AboutSection,
+  BenefitsSection,
   Navigation,
   Header,
-  VideoSection,
-  AboutSection,
-  ProductSection,
   HowItWorksSection,
-  BenefitsSection,
+  ProductSection,
   SupportSection,
-  Footer
-} from "./components";
-
-import { about, product, howItWorks, benefits } from "./data";
-
-import "./App.scss";
+  VideoSection,
+  Footer,
+} from "./components/sections";
 
 const App = () => {
   return (
     <div className="App">
-      <Navigation links={[product, howItWorks, benefits, about]} />
+      <Navigation />
       <Header />
       <ProductSection />
       <HowItWorksSection />

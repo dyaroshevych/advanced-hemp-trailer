@@ -1,0 +1,25 @@
+.Benefits {
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &_item {
+    width: calc(50% - 30px);
+    display: flex;
+
+    &:nth-of-type(n + 3) {
+      margin-top: 70px;
+    }
+
+    &Image {
+      width: 70px;
+      margin-right: 20px;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+}
