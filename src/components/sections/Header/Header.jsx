@@ -9,6 +9,7 @@ import { headerBgJpg } from "../../../assets/img";
 const Header = () => (
   <Section
     className="Header"
+    id="header"
     style={{ backgroundImage: `url(${headerBgJpg})` }}
   >
     <div className="Header_container">
