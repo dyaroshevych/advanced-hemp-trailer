@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import { FaPlay } from "react-icons/fa";
 
 import { Section, Wrapper } from "../../../hoc";
-import { Modal, Button } from "../../UI";
+import { PopupSlider, Button } from "../../UI";
 
 import "./VideoSection.scss";
-import { videoMov } from "../../../assets/img";
+import * as videos from "../../../assets/img/videos";
 
 const VideoSection = () => {
-  const [videoPlayerOpened, setVideoPlayerOpened] = useState(false);
-
-  const toggleVideoPlayer = () => {
-    setVideoPlayerOpened(!videoPlayerOpened);
+  const toggleVideoPlayer = ({ isVisible = true, activeIdx = 0 }) => {
+    setVideoPlayer({ isVisible: isVisible, activeIdx: activeIdx });
   };
+
+  const [videoPlayer, setVideoPlayer] = useState({
+    isVisible: false,
+    activeIdx: 0,
+  });
 
   return (
     <Section className="VideoSection">
@@ -20,15 +24,22 @@ const VideoSection = () => {
         <h2>Hear what farmers are saying about our product!</h2>
         <Button size="lg" color="green" onClick={toggleVideoPlayer}>
           Play Video
+          <FaPlay className="VideoSection_buttonIcon" />
         </Button>
       </Wrapper>
-      <Modal isVisible={videoPlayerOpened} toggleVisibility={toggleVideoPlayer}>
-        <ReactPlayer
-          url={videoMov}
-          controls={true}
-          playing={videoPlayerOpened}
-        />
-      </Modal>
+      <PopupSlider
+        isVisible={videoPlayer.isVisible}
+        toggleVisibility={toggleVideoPlayer}
+        slides={Object.values(videos).map((url, idx) => (
+          <ReactPlayer
+            key={idx}
+            {...{ url }}
+            controls={true}
+            playing={videoPlayer.activeIdx === idx && videoPlayer.isVisible}
+          />
+        ))}
+        activeIdx={videoPlayer.activeIdx}
+      ></PopupSlider>
     </Section>
   );
 };

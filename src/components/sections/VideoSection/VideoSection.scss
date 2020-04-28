@@ -1,7 +1,13 @@
 .VideoSection {
   text-align: center;
 
+  &_buttonIcon {
+    margin-left: 15px;
+  }
+
   .Button {
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin: 30px auto 0;
   }
 }
