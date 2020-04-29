@@ -27,7 +27,7 @@ const AboutSection = () => {
           <Fade bottom>
             <p className="About_textParagraph">
               With over 100 combined years of experience producing agricultural
-              machinery, Advanced Trailer and LMC Manufacturing have teamed up
+              machinery, Advanced Trailer and LMCAg Manufacturing have teamed up
               to create a new and advanced hemp drying solution for growers.
             </p>
           </Fade>

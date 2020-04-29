@@ -19,24 +19,25 @@ const ProductSection = () => {
   const transformedImages = Object.values(images);
 
   return (
-    <Section className="Product">
-      <Wrapper>
-        <SectionHeading
-          heading="The Product"
-          subheading="The Advanced Hemp Dryer is capable of drying a minimum of 2,000 plants in a 16-20 hour period. Our patented design is 53’ long, 100” wide, and has a 40% open drying floor. This creates an environment where conditioned air, NOT HOT AIR, can dry the hemp in a uniform and efficient manor."
-        />
-        <div className="Product_content">
-          {transformedImages.map((image, idx) => (
-            <Image
-              key={`Product${idx}`}
-              image={image}
-              toggleGallery={toggleImageGallery}
-              idx={idx}
-            />
-          ))}
-        </div>
-      </Wrapper>
-
+    <>
+      <Section className="Product">
+        <Wrapper>
+          <SectionHeading
+            heading="The Product"
+            subheading="The Advanced Hemp Dryer is capable of drying a minimum of 2,000 plants in a 16-20 hour period. Our patented design is 53’ long, 100” wide, and has a 40% open drying floor. This creates an environment where conditioned air, NOT HOT AIR, can dry the hemp in a uniform and efficient manor."
+          />
+          <div className="Product_content">
+            {transformedImages.map((image, idx) => (
+              <Image
+                key={`Product${idx}`}
+                image={image}
+                toggleGallery={toggleImageGallery}
+                idx={idx}
+              />
+            ))}
+          </div>
+        </Wrapper>
+      </Section>
       <PopupSlider
         isVisible={imageGallery.isVisible}
         toggleVisibility={toggleImageGallery}
@@ -45,7 +46,7 @@ const ProductSection = () => {
           <img key={idx} src={image} alt={`Product preview ${idx}`} />
         ))}
       />
-    </Section>
+    </>
   );
 };
 

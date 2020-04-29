@@ -1,13 +1,16 @@
 .VideoSection {
   text-align: center;
 
-  &_buttonIcon {
-    margin-left: 15px;
+  &_itemsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
   }
 
-  .Button {
-    display: flex;
-    align-items: center;
-    margin: 30px auto 0;
+  &_item {
+    &Caption {
+      margin-top: 20px;
+      font-weight: 500;
+    }
   }
 }

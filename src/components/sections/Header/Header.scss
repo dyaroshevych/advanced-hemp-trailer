@@ -1,5 +1,4 @@
 .Header {
-  margin-top: 100px;
   padding-bottom: 20px;
 
   .Section_content {
@@ -21,10 +20,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.55);
   }
 
   &_textContainer {
     max-width: 700px;
+  }
+
+  &_headingDivider {
+    height: 400px;
+    max-height: 40vh;
   }
 }
