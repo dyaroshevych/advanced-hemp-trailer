@@ -20,38 +20,42 @@ const AboutSection = () => {
   const transformedImages = Object.values(images);
 
   return (
-    <Section className="About">
-      <SectionHeading heading="About Us" />
-      <Wrapper className="About_content">
-        <div className="About_textContainer">
-          <Fade bottom>
-            <p className="About_textParagraph">
-              With over 100 combined years of experience producing agricultural
-              machinery, Advanced Trailer and LMCAg Manufacturing have teamed up
-              to create a new and advanced hemp drying solution for growers.
-            </p>
-          </Fade>
-          <Fade delay={50} bottom>
-            <p className="About_textParagraph">
-              We are currently the largest supplier of processing machinery for
-              the peanut, almond, and hazelnut industries. Tens of thousands of
-              our drying units are in use currently and our track record speaks
-              for itself. With our equipment in use in six different continents,
-              we have cemented ourselves as the pinnacle of reliability.
-            </p>
-          </Fade>
-        </div>
-        <div className="About_imageContainer">
-          {transformedImages.map((image, idx) => (
-            <Image
-              key={`about_${idx}`}
-              image={image}
-              toggleGallery={toggleImageGallery}
-              idx={idx}
-            />
-          ))}
-        </div>
-      </Wrapper>
+    <>
+      <Section className="About">
+        <SectionHeading heading="About Us" />
+        <Wrapper className="About_content">
+          <div className="About_textContainer">
+            <Fade bottom>
+              <p className="About_textParagraph">
+                With over 100 combined years of experience producing
+                agricultural machinery, Advanced Trailer and LMCAg Manufacturing
+                have teamed up to create a new and advanced hemp drying solution
+                for growers.
+              </p>
+            </Fade>
+            <Fade delay={50} bottom>
+              <p className="About_textParagraph">
+                We are currently the largest supplier of processing machinery
+                for the peanut, almond, and hazelnut industries. Tens of
+                thousands of our drying units are in use currently and our track
+                record speaks for itself. With our equipment in use in six
+                different continents, we have cemented ourselves as the pinnacle
+                of reliability.
+              </p>
+            </Fade>
+          </div>
+          <div className="About_imageContainer">
+            {transformedImages.map((image, idx) => (
+              <Image
+                key={`about_${idx}`}
+                image={image}
+                toggleGallery={toggleImageGallery}
+                idx={idx}
+              />
+            ))}
+          </div>
+        </Wrapper>
+      </Section>
       <PopupSlider
         isVisible={imageGallery.isVisible}
         toggleVisibility={toggleImageGallery}
@@ -60,7 +64,7 @@ const AboutSection = () => {
           <img key={idx} src={image} alt={`About preview ${idx}`} />
         ))}
       />
-    </Section>
+    </>
   );
 };
 

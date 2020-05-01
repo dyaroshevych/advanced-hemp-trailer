@@ -1,6 +1,15 @@
 .Section {
   padding: 20px 0;
-  position: relative;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #a8c28d;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   &_content {
     padding: 100px 0;

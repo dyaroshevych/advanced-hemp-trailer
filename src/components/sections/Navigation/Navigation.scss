@@ -1,6 +1,8 @@
 .Navigation {
-  position: relative;
+  position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
   padding: 26px 0;
   z-index: 2;
   background-color: #fff;

@@ -1,5 +1,5 @@
 .Modal {
-  position: absolute;
+  position: fixed;
   z-index: -5;
   opacity: 0;
   top: -10px;
@@ -14,7 +14,7 @@
     z-index: 5;
     visibility: visible;
     opacity: 1;
-    top: 50vh;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
 

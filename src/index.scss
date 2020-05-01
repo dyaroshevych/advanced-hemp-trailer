@@ -1,82 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  border: none;
-  outline: none;
-  font-family: "Poppins", -apple-system, system-ui, sans-serif;
+$desktop-width: 1240px;
+$tablet-lg-width: 960px;
+$tablet-md-width: 800px;
+
+@mixin desktop {
+  @media (max-width: $desktop-width) {
+    @content;
+  }
 }
 
-::selection {
-  color: #fff;
-  background-color: #6e9941;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+@mixin tablet-lg {
+  @media (max-width: $tablet-lg-width) {
+    @content;
+  }
 }
 
-body {
-  box-sizing: border-box;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-h1 {
-  display: inline;
-  flex: 1;
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 50px;
-  color: #fff;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 35px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 35px;
-}
-
-h4 {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 25px;
-}
-
-h6 {
-  position: relative;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-h6::after {
-  position: absolute;
-  content: "";
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 5px;
-  background-color: #eeeeee;
-}
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+@mixin tablet-md {
+  @media (max-width: $tablet-md-width) {
+    @content;
+  }
 }
