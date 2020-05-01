@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/advanced-hemp-trailer/static/css/main.69122331.chunk.css",
-    "main.js": "/advanced-hemp-trailer/static/js/main.e138289f.chunk.js",
-    "main.js.map": "/advanced-hemp-trailer/static/js/main.e138289f.chunk.js.map",
+    "main.css": "/advanced-hemp-trailer/static/css/main.bf810422.chunk.css",
+    "main.js": "/advanced-hemp-trailer/static/js/main.985d5a9b.chunk.js",
+    "main.js.map": "/advanced-hemp-trailer/static/js/main.985d5a9b.chunk.js.map",
     "runtime-main.js": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js",
     "runtime-main.js.map": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js.map",
-    "static/js/2.9a145fb3.chunk.js": "/advanced-hemp-trailer/static/js/2.9a145fb3.chunk.js",
-    "static/js/2.9a145fb3.chunk.js.map": "/advanced-hemp-trailer/static/js/2.9a145fb3.chunk.js.map",
+    "static/js/2.59a5108c.chunk.js": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js",
+    "static/js/2.59a5108c.chunk.js.map": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js.map",
     "index.html": "/advanced-hemp-trailer/index.html",
-    "precache-manifest.9bbe5a5b1425a0f03236d11b40580ce3.js": "/advanced-hemp-trailer/precache-manifest.9bbe5a5b1425a0f03236d11b40580ce3.js",
+    "precache-manifest.868fd21d07677e1127f789b584ec25d7.js": "/advanced-hemp-trailer/precache-manifest.868fd21d07677e1127f789b584ec25d7.js",
     "service-worker.js": "/advanced-hemp-trailer/service-worker.js",
-    "static/css/main.69122331.chunk.css.map": "/advanced-hemp-trailer/static/css/main.69122331.chunk.css.map",
-    "static/js/2.9a145fb3.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.9a145fb3.chunk.js.LICENSE.txt",
+    "static/css/main.bf810422.chunk.css.map": "/advanced-hemp-trailer/static/css/main.bf810422.chunk.css.map",
+    "static/js/2.59a5108c.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js.LICENSE.txt",
     "static/media/1.mp4": "/advanced-hemp-trailer/static/media/1.545de8ae.mp4",
     "static/media/1.svg": "/advanced-hemp-trailer/static/media/1.e6d20b9f.svg",
     "static/media/1.jpg": "/advanced-hemp-trailer/static/media/1.d4fde33f.jpg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7eb5c5b6.js",
-    "static/js/2.9a145fb3.chunk.js",
-    "static/css/main.69122331.chunk.css",
-    "static/js/main.e138289f.chunk.js"
+    "static/js/2.59a5108c.chunk.js",
+    "static/css/main.bf810422.chunk.css",
+    "static/js/main.985d5a9b.chunk.js"
   ]
 }
