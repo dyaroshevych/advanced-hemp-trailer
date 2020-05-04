@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/advanced-hemp-trailer/static/css/main.bf810422.chunk.css",
-    "main.js": "/advanced-hemp-trailer/static/js/main.985d5a9b.chunk.js",
-    "main.js.map": "/advanced-hemp-trailer/static/js/main.985d5a9b.chunk.js.map",
+    "main.css": "/advanced-hemp-trailer/static/css/main.e4400897.chunk.css",
+    "main.js": "/advanced-hemp-trailer/static/js/main.0a034e49.chunk.js",
+    "main.js.map": "/advanced-hemp-trailer/static/js/main.0a034e49.chunk.js.map",
     "runtime-main.js": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js",
     "runtime-main.js.map": "/advanced-hemp-trailer/static/js/runtime-main.7eb5c5b6.js.map",
-    "static/js/2.59a5108c.chunk.js": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js",
-    "static/js/2.59a5108c.chunk.js.map": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js.map",
+    "static/js/2.449bac18.chunk.js": "/advanced-hemp-trailer/static/js/2.449bac18.chunk.js",
+    "static/js/2.449bac18.chunk.js.map": "/advanced-hemp-trailer/static/js/2.449bac18.chunk.js.map",
     "index.html": "/advanced-hemp-trailer/index.html",
-    "precache-manifest.868fd21d07677e1127f789b584ec25d7.js": "/advanced-hemp-trailer/precache-manifest.868fd21d07677e1127f789b584ec25d7.js",
+    "precache-manifest.7033d1302044dd03436766bd6da3e07f.js": "/advanced-hemp-trailer/precache-manifest.7033d1302044dd03436766bd6da3e07f.js",
     "service-worker.js": "/advanced-hemp-trailer/service-worker.js",
-    "static/css/main.bf810422.chunk.css.map": "/advanced-hemp-trailer/static/css/main.bf810422.chunk.css.map",
-    "static/js/2.59a5108c.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.59a5108c.chunk.js.LICENSE.txt",
+    "static/css/main.e4400897.chunk.css.map": "/advanced-hemp-trailer/static/css/main.e4400897.chunk.css.map",
+    "static/js/2.449bac18.chunk.js.LICENSE.txt": "/advanced-hemp-trailer/static/js/2.449bac18.chunk.js.LICENSE.txt",
     "static/media/1.mp4": "/advanced-hemp-trailer/static/media/1.545de8ae.mp4",
     "static/media/1.svg": "/advanced-hemp-trailer/static/media/1.e6d20b9f.svg",
     "static/media/1.jpg": "/advanced-hemp-trailer/static/media/1.d4fde33f.jpg",
@@ -25,12 +25,13 @@
     "static/media/4.svg": "/advanced-hemp-trailer/static/media/4.28376719.svg",
     "static/media/header-bg.jpg": "/advanced-hemp-trailer/static/media/header-bg.b8ae99fc.jpg",
     "static/media/logo.png": "/advanced-hemp-trailer/static/media/logo.3aaeaadd.png",
-    "static/media/support-bg.jpg": "/advanced-hemp-trailer/static/media/support-bg.3f1c010d.jpg"
+    "static/media/support-bg.jpg": "/advanced-hemp-trailer/static/media/support-bg.3f1c010d.jpg",
+    "static/media/support-mobile-bg.jpg": "/advanced-hemp-trailer/static/media/support-mobile-bg.7a718933.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7eb5c5b6.js",
-    "static/js/2.59a5108c.chunk.js",
-    "static/css/main.bf810422.chunk.css",
-    "static/js/main.985d5a9b.chunk.js"
+    "static/js/2.449bac18.chunk.js",
+    "static/css/main.e4400897.chunk.css",
+    "static/js/main.0a034e49.chunk.js"
   ]
 }
