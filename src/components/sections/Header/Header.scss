@@ -1,5 +1,12 @@
+@import "../../../index.scss";
+
 .Header {
-  padding-bottom: 20px;
+  position: relative;
+  margin-top: 100px;
+
+  @include mobile-sm {
+    margin-top: 134px;
+  }
 
   .Section_content {
     padding: 0;
@@ -11,20 +18,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-  }
 
-  &_background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.55);
+    @include tablet-md {
+      min-height: calc(100vh - 120px);
+    }
+
+    @include mobile-sm {
+      min-height: calc(100vh - 153px);
+    }
   }
 
   &_textContainer {
-    max-width: 700px;
+    max-width: 90%;
+
+    @include desktop {
+      max-width: 100%;
+    }
+  }
+
+  &_textLeft {
+    text-align: left;
+  }
+
+  &_textRight {
+    text-align: right;
   }
 
   &_headingDivider {

@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .Modal {
   position: fixed;
   z-index: -5;
@@ -10,6 +12,14 @@
   border-radius: 5px;
   transition: top 0.25s linear, transform 0.25s linear, opacity 0.25s linear;
 
+  @include tablet-lg {
+    padding: 20px;
+  }
+
+  @include mobile-md {
+    padding: 0;
+  }
+
   &[isvisible="true"] {
     z-index: 5;
     visibility: visible;
@@ -20,6 +30,7 @@
 
   &_closeButton {
     position: absolute;
+    z-index: 6;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -47,6 +58,14 @@
 
     &::after {
       transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    @include tablet-lg {
+      top: -5px;
+    }
+
+    @include mobile-md {
+      top: 0;
     }
   }
 }

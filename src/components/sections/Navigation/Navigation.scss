@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .Navigation {
   position: fixed;
   width: 100%;
@@ -8,17 +10,97 @@
   background-color: #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.12);
 
+  @include tablet-lg {
+    padding: 3px 0;
+  }
+
+  @include mobile-lg {
+    padding: 7px 0;
+  }
+
+  @include mobile-md {
+    padding: 0;
+  }
+
   &_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablet-lg {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &_contactInfo {
+    @include tablet-lg {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+    }
+
+    @include mobile-lg {
+      .ContactInfo_link {
+        font-size: 14px;
+
+        &Container {
+          &:not(:last-of-type) {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+
+    @include mobile-md {
+      display: block;
+      text-align: center;
+
+      .ContactInfo_linkContainer:not(:last-of-type) {
+        margin-right: 0;
+      }
+    }
+
+    @include mobile-sm {
+      margin-bottom: 0;
+    }
+
+    &Container {
+      @include tablet-lg {
+        width: 100%;
+        display: block;
+      }
+    }
   }
 
   &_logoContainer {
-    height: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @include tablet-lg {
+      position: initial;
+      transform: none;
+      margin-right: 60px;
+    }
+
+    @include mobile-lg {
+      margin-right: 40px;
+    }
+
+    @include mobile-md {
+      margin-right: 15px;
+    }
+
+    @include mobile-sm {
+      margin-right: 0;
+    }
+  }
+
+  .Button {
+    @include tablet-lg {
+      transform: translateY(-4px);
+    }
   }
 }

@@ -1,12 +1,49 @@
+@import "../../../index.scss";
+
 .Product {
   &_content {
     display: flex;
     justify-content: space-between;
+
+    @include tablet-lg {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &_content {
     & .Image_container {
       width: calc(33.3333% - 30px);
+
+      @include desktop {
+        width: calc(33.3333% - 15px);
+      }
+
+      @include tablet-lg {
+        width: calc(50% - 15px);
+
+        &:first-of-type {
+          margin-right: 30px;
+          margin-bottom: 30px;
+        }
+      }
+
+      @include mobile-lg {
+        width: 100%;
+        margin-bottom: 30px;
+
+        &:first-of-type {
+          margin-right: 0;
+        }
+      }
+
+      @include mobile-md {
+        margin-bottom: 15px;
+
+        &:first-of-type {
+          margin-bottom: 15px;
+        }
+      }
     }
   }
 }

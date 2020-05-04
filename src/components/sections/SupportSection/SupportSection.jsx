@@ -3,12 +3,18 @@ import React from "react";
 import { Section, Wrapper } from "../../../hoc";
 
 import "./SupportSection.scss";
-import { supportBgJpg } from "../../../assets/img";
+import { supportBgJpg, supportMobileBgJpg } from "../../../assets/img";
 
 const SupportSection = () => (
   <Section
     className="Support"
-    style={{ backgroundImage: `url(${supportBgJpg})` }}
+    id="support"
+    style={{
+      backgroundImage: `url(${
+        window.innerWidth > 800 ? supportBgJpg : supportMobileBgJpg
+      })`,
+    }}
+    scrollable={false}
   >
     <Wrapper>
       <h3>everything in our company is american designed and built.</h3>

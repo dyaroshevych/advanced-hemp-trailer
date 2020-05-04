@@ -26,26 +26,28 @@ const HowItWorksSection = () => {
   const transformedIcons = Object.values(icons);
 
   return (
-    <Section className="HowItWorks">
-      <SectionHeading
-        heading="How it Works"
-        subheading="The Advanced Hemp Dryer offers the highest technology for drying, all while being easy
+    <Section className="HowItWorks" id="how-it-works">
+      <Wrapper>
+        <SectionHeading
+          heading="How it Works"
+          subheading="The Advanced Hemp Dryer offers the highest technology for drying, all while being easy
   to use. The drying process is easy to teach to anyone!"
-      />
-      <Wrapper className="HowItWorks_content">
-        {items.map(({ heading, description }, idx) => (
-          <Fade key={idx} delay={idx * 200} bottom>
-            <div className="HowItWorks_item">
-              <img
-                className="HowItWorks_itemImage"
-                src={transformedIcons[idx]}
-                alt={heading}
-              />
-              <h3>{heading}</h3>
-              <p>{description}</p>
-            </div>
-          </Fade>
-        ))}
+        />
+        <div className="HowItWorks_content">
+          {items.map(({ heading, description }, idx) => (
+            <Fade key={idx} delay={idx * 200}>
+              <div className="HowItWorks_item">
+                <img
+                  className="HowItWorks_itemImage"
+                  src={transformedIcons[idx]}
+                  alt={heading}
+                />
+                <h3>{heading}</h3>
+                <p>{description}</p>
+              </div>
+            </Fade>
+          ))}
+        </div>
       </Wrapper>
     </Section>
   );

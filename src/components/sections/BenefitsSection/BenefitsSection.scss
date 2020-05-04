@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .Benefits {
   &_content {
     display: flex;
@@ -13,9 +15,31 @@
       margin-top: 70px;
     }
 
+    @include tablet-lg {
+      width: 590px;
+      margin: 0 auto;
+
+      &:not(:first-of-type) {
+        margin-top: 70px;
+      }
+    }
+
+    @include mobile-lg {
+      width: 100%;
+    }
+
+    @include mobile-md {
+      display: block;
+      text-align: center;
+    }
+
     &Image {
       width: 70px;
       margin-right: 20px;
+
+      @include mobile-md {
+        margin-right: 0;
+      }
     }
 
     h4 {

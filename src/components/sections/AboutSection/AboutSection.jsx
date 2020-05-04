@@ -21,7 +21,7 @@ const AboutSection = () => {
 
   return (
     <>
-      <Section className="About">
+      <Section className="About" id="about">
         <SectionHeading heading="About Us" />
         <Wrapper className="About_content">
           <div className="About_textContainer">
@@ -44,7 +44,7 @@ const AboutSection = () => {
               </p>
             </Fade>
           </div>
-          <div className="About_imageContainer">
+          <div className="About_imagesContainer">
             {transformedImages.map((image, idx) => (
               <Image
                 key={`about_${idx}`}

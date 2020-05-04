@@ -1,12 +1,53 @@
+@import "../../../index.scss";
+
 .HowItWorks {
   &_content {
     display: flex;
     justify-content: space-between;
+
+    @include tablet-lg {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &_item {
     width: calc(33.3333% - 30px);
     text-align: center;
+
+    @include desktop {
+      width: calc(33.3333% - 15px);
+    }
+
+    @include tablet-lg {
+      width: calc(50% - 15px);
+
+      &:first-of-type {
+        margin-right: 30px;
+      }
+
+      &:last-of-type {
+        margin-top: 30px;
+      }
+    }
+
+    @include mobile-lg {
+      width: 100%;
+
+      &:first-of-type {
+        margin-right: 0;
+      }
+
+      &:not(:first-of-type) {
+        margin-top: 30px;
+      }
+    }
+
+    @include mobile-md {
+      &:not(:first-of-type) {
+        margin-top: 15px;
+      }
+    }
 
     &Image {
       height: 100px;

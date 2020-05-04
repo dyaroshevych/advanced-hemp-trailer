@@ -1,27 +1,57 @@
+@import "../../../index.scss";
+
 .About {
   &_content {
     display: flex;
     justify-content: space-between;
+
+    @include mobile-lg {
+      display: block;
+      text-align: center;
+    }
   }
 
-  &_imageContainer {
+  &_imagesContainer {
     width: calc(66.6666% - 15px);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
+
+    @include tablet-lg {
+      display: block;
+      width: calc(50% - 15px);
+    }
+
+    @include mobile-lg {
+      width: 100%;
+    }
 
     & .Image_container {
       width: calc(50% - 10px);
+      max-height: fit-content;
 
       &:nth-of-type(n + 3) {
         margin-top: 20px;
       }
 
-      & .image {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 250px;
+      @include tablet-lg {
+        width: 100%;
+
+        &:nth-of-type(n + 3) {
+          display: none;
+          margin-top: 0;
+        }
+
+        &:not(:last-of-type) {
+          margin-bottom: 15px;
+        }
+      }
+
+      @include mobile-lg {
+        &:not(:last-of-type) {
+          margin-bottom: 10px;
+        }
       }
     }
   }
@@ -29,6 +59,15 @@
   &_text {
     &Container {
       width: calc(33.3333% - 15px);
+
+      @include tablet-lg {
+        width: calc(50% - 15px);
+      }
+
+      @include mobile-lg {
+        width: 100%;
+        margin-bottom: 30px;
+      }
     }
 
     &Paragraph {

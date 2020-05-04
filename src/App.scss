@@ -1,3 +1,5 @@
+@import "./index.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@
 
 body {
   box-sizing: border-box;
+  background-color: #a8c28d;
 }
 
 ul,
@@ -33,6 +36,10 @@ h1 {
   font-size: 45px;
   line-height: 50px;
   color: #fff;
+
+  @include tablet-lg {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -41,6 +48,14 @@ h2 {
   line-height: 35px;
   margin-bottom: 15px;
   text-transform: uppercase;
+
+  @include tablet-lg {
+    font-size: 35px;
+  }
+
+  @include mobile-md {
+    font-size: 30px;
+  }
 }
 
 h3 {

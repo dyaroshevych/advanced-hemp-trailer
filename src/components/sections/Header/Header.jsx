@@ -10,18 +10,23 @@ const Header = () => (
   <Section
     className="Header"
     id="header"
-    style={{ backgroundImage: `url(${headerBgJpg})` }}
+    style={{
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), url(${headerBgJpg})`,
+    }}
   >
     <div className="Header_container">
-      <div className="Header_background"></div>
       <Wrapper className="Header_textContainer">
-        <Fade up>
-          <h1>
+        <h1>
+          <Fade left duration={2000} className="Header_textLeft">
             The Future of Hemp Drying
-            <div className="Header_headingDivider"></div>
-            Has Arrived
-          </h1>
-        </Fade>
+          </Fade>
+          <div className="Header_headingDivider"></div>
+          <div className="Header_textRight">
+            <Fade right duration={2000}>
+              Has Arrived
+            </Fade>
+          </div>
+        </h1>
       </Wrapper>
     </div>
   </Section>

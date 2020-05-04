@@ -1,4 +1,10 @@
+@import "../../../index.scss";
+
 .SectionHeading {
   text-align: center;
   margin-bottom: 100px;
+
+  @include desktop {
+    margin-bottom: 70px;
+  }
 }

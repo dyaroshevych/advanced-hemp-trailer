@@ -1,23 +1,13 @@
+@import "../../../index.scss";
+
 .Form {
   position: relative;
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
 
-  &_closeButton {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(50%, -50%);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #6e9941;
-    color: #fff;
-    cursor: pointer;
+  @include mobile-md {
+    padding: 20px;
   }
 
   h3 {
@@ -62,5 +52,11 @@
     max-width: 300px;
     min-width: 300px;
     max-height: 300px;
+
+    @include mobile-md {
+      max-width: 240px;
+      min-width: 240px;
+      max-height: 240px;
+    }
   }
 }

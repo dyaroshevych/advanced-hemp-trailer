@@ -31,7 +31,7 @@ const BenefitsSection = () => {
   ];
 
   return (
-    <Section className="Benefits">
+    <Section className="Benefits" id="benefits">
       <SectionHeading heading="Our Benefits" />
       <Wrapper className="Benefits_content">
         {items.map(({ heading, description }, idx) => (

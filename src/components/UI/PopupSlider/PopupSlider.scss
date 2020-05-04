@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .PopupSlider {
   &_controls {
     position: absolute;
@@ -35,16 +37,50 @@
     &:hover {
       border-color: #fff;
     }
+
+    @include tablet-lg {
+      width: 40px;
+      height: 40px;
+      font-size: 25px;
+      line-height: 25px;
+
+      &:first-of-type {
+        transform: translateX(-75%);
+      }
+
+      &:last-of-type {
+        transform: translateX(75%);
+      }
+    }
+
+    @include mobile-md {
+      &:first-of-type {
+        transform: translateX(-50%);
+      }
+
+      &:last-of-type {
+        transform: translateX(50%);
+      }
+    }
   }
 
   &_item {
     position: relative;
     cursor: default;
-    z-index: 2;
+    z-index: -1;
 
-    & img {
-      max-width: 800px;
+    img {
+      display: block;
+      max-width: 700px;
       max-height: 80vh;
+
+      @include tablet-lg {
+        max-width: 70vw;
+      }
+
+      @include mobile-md {
+        max-width: calc(100vw - 50px);
+      }
     }
   }
 }

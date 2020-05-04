@@ -1,6 +1,23 @@
+@import "../../../index.scss";
+
 .Footer {
+  padding-bottom: 20px;
+
   .Section_content {
     padding: 30px 0;
+  }
+
+  &_content {
+    @include tablet-lg {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    @include mobile-md {
+      display: block;
+      text-align: center;
+    }
   }
 
   &_links,
@@ -11,9 +28,46 @@
 
   &_links {
     margin-bottom: 20px;
+
+    @include tablet-lg {
+      display: block;
+      margin-bottom: 0;
+
+      .ContactInfo_linkContainer:not(:last-of-type) {
+        margin-right: 0;
+        margin-bottom: 5px;
+      }
+    }
+
+    @include mobile-md {
+      .ContactInfo_linkIcon {
+        margin-right: 5px;
+      }
+
+      .ContactInfo_link {
+        font-size: 14px;
+      }
+    }
   }
 
   &_social {
+    @include mobile-lg {
+      display: block;
+
+      .ContactInfo_linkContainer:not(:last-of-type) {
+        margin-right: 0;
+      }
+    }
+
+    @include mobile-md {
+      display: flex;
+      margin-top: 15px;
+
+      .ContactInfo_linkContainer:not(:last-of-type) {
+        margin-right: 30px;
+      }
+    }
+
     .ContactInfo_linkIcon {
       font-size: 25px;
       color: #6e9941;

@@ -20,7 +20,7 @@ const ProductSection = () => {
 
   return (
     <>
-      <Section className="Product">
+      <Section className="Product" id="product">
         <Wrapper>
           <SectionHeading
             heading="The Product"

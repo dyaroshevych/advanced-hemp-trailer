@@ -17,15 +17,18 @@ const Navigation = () => {
     <nav className="Navigation">
       <Wrapper>
         <ul className="Navigation_list">
-          <li>
-            <ContactInfo data={["phone", "email"]} />
+          <li className="Navigation_contactInfoContainer">
+            <ContactInfo
+              className="Navigation_contactInfo"
+              data={["phone", "email"]}
+            />
           </li>
           <li className="Navigation_logoContainer">
             <Fade>
               <Logo />
             </Fade>
           </li>
-          <li className="Navigation_linkContainer" onClick={toggleForm}>
+          <li onClick={toggleForm}>
             <Fade delay={100}>
               <Button color="green">Get In Touch</Button>
             </Fade>

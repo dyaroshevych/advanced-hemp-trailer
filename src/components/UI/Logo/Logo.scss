@@ -1,4 +1,18 @@
+@import "../../../index.scss";
+
 .Logo {
   height: 80px;
-  cursor: pointer;
+
+  @include desktop {
+    height: 60px;
+  }
+
+  @include mobile-lg {
+    height: 50px;
+  }
+
+  @include mobile-md {
+    height: 34px;
+    margin: 3px 0;
+  }
 }

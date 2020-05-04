@@ -6,8 +6,8 @@ import { ContactInfo } from "../../UI";
 import "./Footer.scss";
 
 const Footer = () => (
-  <Section className="Footer">
-    <Wrapper>
+  <Section className="Footer" id="footer">
+    <Wrapper className="Footer_content">
       <ContactInfo
         className="Footer_links"
         data={["phone", "email", "location"]}

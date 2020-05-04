@@ -1,6 +1,35 @@
+@import "../../../index.scss";
+
 .Support {
+  .Section_content {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include tablet-lg {
+      padding: 20px 0;
+    }
+
+    @include tablet-md {
+      padding: 30px 0 300px;
+      overflow-y: hidden;
+    }
+  }
+
   h3 {
     max-width: 50%;
     text-transform: uppercase;
+
+    @include tablet-lg {
+      max-width: 70%;
+    }
+
+    @include tablet-md {
+      max-width: 100%;
+    }
+
+    @include mobile-md {
+      font-size: 22px;
+    }
   }
 }
