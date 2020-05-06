@@ -35,7 +35,7 @@ const HowItWorksSection = () => {
         />
         <div className="HowItWorks_content">
           {items.map(({ heading, description }, idx) => (
-            <Fade key={idx} delay={idx * 200}>
+            <Fade key={idx} delay={idx * 200} duration={500}>
               <div className="HowItWorks_item">
                 <img
                   className="HowItWorks_itemImage"

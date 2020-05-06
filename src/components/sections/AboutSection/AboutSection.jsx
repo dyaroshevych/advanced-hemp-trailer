@@ -25,7 +25,7 @@ const AboutSection = () => {
         <SectionHeading heading="About Us" />
         <Wrapper className="About_content">
           <div className="About_textContainer">
-            <Fade bottom>
+            <Fade bottom duration={500}>
               <p className="About_textParagraph">
                 With over 100 combined years of experience producing
                 agricultural machinery, Advanced Trailer and LMCAg Manufacturing
@@ -33,7 +33,7 @@ const AboutSection = () => {
                 for growers.
               </p>
             </Fade>
-            <Fade delay={50} bottom>
+            <Fade delay={50} bottom duration={500}>
               <p className="About_textParagraph">
                 We are currently the largest supplier of processing machinery
                 for the peanut, almond, and hazelnut industries. Tens of

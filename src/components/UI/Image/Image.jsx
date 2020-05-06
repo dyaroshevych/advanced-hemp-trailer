@@ -5,7 +5,7 @@ import { FaPlus } from "react-icons/fa";
 import "./Image.scss";
 
 const Image = ({ image, toggleGallery, idx }) => (
-  <Fade key={idx} delay={idx * 300} bottom>
+  <Fade key={idx} delay={idx * 200} duration={750} bottom>
     <div
       className="Image_container"
       onClick={() => toggleGallery({ activeIdx: idx })}
