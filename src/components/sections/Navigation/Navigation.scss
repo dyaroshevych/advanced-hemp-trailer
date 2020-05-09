@@ -31,6 +31,10 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+
+    @include mobile-sm {
+      flex-direction: column;
+    }
   }
 
   &_contactInfo {
