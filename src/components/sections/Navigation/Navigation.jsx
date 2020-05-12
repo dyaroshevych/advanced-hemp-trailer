@@ -39,21 +39,25 @@ const Navigation = () => {
         <Form
           fields={[
             {
-              name: "Your name",
+              name: "name",
+              placeholder: "Your name",
               required: true,
             },
             {
-              name: "Your number",
+              name: "number",
+              placeholder: "Your number",
               required: true,
               type: "tel",
             },
             {
-              name: "Your email",
+              name: "_replyto",
+              placeholder: "Your email",
               required: true,
               type: "email",
             },
             {
-              name: "Notes...",
+              name: "notes",
+              placeholder: "Notes...",
               tag: "textarea",
             },
           ]}

@@ -16,8 +16,8 @@ const ContactContext = React.createContext({
   },
   email: {
     icon: <FaEnvelope />,
-    content: "info@advancedhempdryer.com",
-    link: "mailto:info@advancedhempdryer.com",
+    content: "Ava@AdvancedHempDryer.com",
+    link: "mailto:Ava@AdvancedHempDryer.com",
   },
   location: {
     icon: <FaMapMarkerAlt />,
