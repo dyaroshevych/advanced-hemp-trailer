@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64baf27466db16818f65f12003313780",
+    "revision": "fc85c3e43f5ff380208e09fa5567291f",
     "url": "/advanced-hemp-trailer/index.html"
   },
   {
-    "revision": "50eb4a77471e76b7c3f6",
+    "revision": "a2c58cc000599b3626a0",
     "url": "/advanced-hemp-trailer/static/css/main.beacc917.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advanced-hemp-trailer/static/js/2.0372267e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50eb4a77471e76b7c3f6",
-    "url": "/advanced-hemp-trailer/static/js/main.74829c6b.chunk.js"
+    "revision": "a2c58cc000599b3626a0",
+    "url": "/advanced-hemp-trailer/static/js/main.925daabb.chunk.js"
   },
   {
     "revision": "366aa02e508b8bf898d4",
