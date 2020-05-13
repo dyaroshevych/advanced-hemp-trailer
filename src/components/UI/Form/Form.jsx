@@ -5,7 +5,7 @@ import { Button } from "../";
 import "./Form.scss";
 
 const Form = ({ fields }) => (
-  <form className="Form" method="POST" action="https://formspree.io/xlepdory">
+  <form className="Form" method="POST" action="https://formspree.io/xjlqzbvx">
     <h3>Contact us</h3>
     {fields.map(
       ({
@@ -39,6 +39,7 @@ const Form = ({ fields }) => (
         </div>
       )
     )}
+    <input type="hidden" name="_next" value="https://advancedhempdryer.com/" />
     <Button color="gray">Submit</Button>
   </form>
 );

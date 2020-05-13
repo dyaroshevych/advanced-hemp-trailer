@@ -16,6 +16,8 @@ const ContactInfo = ({ className = "", data }) => {
             <a
               className="ContactInfo_link"
               href={contactData[contactItem].link}
+              rel="noopener noreferrer"
+              target="_blank"
             >
               <span className="ContactInfo_linkIcon">
                 {contactData[contactItem].icon}
