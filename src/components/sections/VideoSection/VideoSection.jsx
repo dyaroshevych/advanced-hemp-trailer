@@ -8,12 +8,12 @@ import * as videos from "../../../assets/img/videos";
 
 const data = [
   {
-    caption: "A Quality Product",
+    caption: "The Drying Process",
     videoUrl: videos.video1Mp4,
     previewUrl: videos.preview1Jpg,
   },
   {
-    caption: "The Drying Process",
+    caption: "A Quality Product",
     videoUrl: videos.video2Mp4,
     previewUrl: videos.preview2Jpg,
   },
