@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
+  FaTwitter,
 } from "react-icons/fa";
 
 const ContactContext = React.createContext({
@@ -24,20 +25,25 @@ const ContactContext = React.createContext({
     content: "405 Keaton Street Vienna, Georgia 31092",
     link: "https://goo.gl/maps/2M4sm64oihfkPGrNA",
   },
-  instagram: {
-    icon: <FaInstagram />,
+  linkedin: {
+    icon: <FaLinkedinIn />,
     content: "",
-    link: "",
+    link: "https://www.linkedin.com/company/advancedhempdryer/",
   },
   facebook: {
     icon: <FaFacebookF />,
     content: "",
-    link: "",
+    link: "https://www.facebook.com/AdvancedHempDry/",
   },
-  linkedin: {
-    icon: <FaLinkedinIn />,
+  twitter: {
+    icon: <FaTwitter />,
     content: "",
-    link: "",
+    link: "https://twitter.com/AdvancedHempDry",
+  },
+  instagram: {
+    icon: <FaInstagram />,
+    content: "",
+    link: "https://www.instagram.com/advancedhempdry/",
   },
 });
 

@@ -14,7 +14,7 @@ const Footer = () => (
       />
       <ContactInfo
         className="Footer_social"
-        data={["instagram", "facebook", "linkedin"]}
+        data={["linkedin", "facebook", "twitter", "instagram"]}
       />
     </Wrapper>
   </Section>
