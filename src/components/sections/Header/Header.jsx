@@ -17,15 +17,17 @@ const Header = () => (
     <div className="Header_container">
       <Wrapper className="Header_textContainer">
         <h1>
-          <Fade left duration={2000} className="Header_textLeft">
-            The Future of Hemp Drying
-          </Fade>
+          <span className="Header_textLeft">
+            <Fade left duration={2000}>
+              The Future of Hemp Drying
+            </Fade>
+          </span>
           <div className="Header_headingDivider"></div>
-          <div className="Header_textRight">
+          <span className="Header_textRight">
             <Fade right duration={2000}>
               Has Arrived
             </Fade>
-          </div>
+          </span>
         </h1>
       </Wrapper>
     </div>

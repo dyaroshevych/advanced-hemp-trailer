@@ -14,12 +14,16 @@
     padding: 3px 0;
   }
 
+  @include tablet-md {
+    padding: 5px 0;
+  }
+
   @include mobile-lg {
-    padding: 7px 0;
+    padding: 10px 0;
   }
 
   @include mobile-md {
-    padding: 0;
+    padding: 4px 0;
   }
 
   &_list {

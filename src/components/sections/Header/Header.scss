@@ -13,6 +13,7 @@
   }
 
   &_container {
+    padding: 20px 0;
     min-height: calc(100vh - 140px);
     position: relative;
     display: flex;
@@ -23,8 +24,12 @@
       min-height: calc(100vh - 120px);
     }
 
+    @include mobile-md {
+      min-height: unset;
+    }
+
     @include mobile-sm {
-      min-height: calc(100vh - 153px);
+      // min-height: calc(100vh - 153px);
     }
   }
 
@@ -44,8 +49,19 @@
     text-align: right;
   }
 
+  &_textLeft,
+  &_textRight {
+    @include mobile-md {
+      text-align: center;
+    }
+  }
+
   &_headingDivider {
     height: 400px;
     max-height: 40vh;
+
+    @include mobile-md {
+      height: 100px;
+    }
   }
 }
