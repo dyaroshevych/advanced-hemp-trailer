@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 
-import { Section, Wrapper } from "../../../hoc";
-import { SectionHeading, PopupSlider, Image } from "../../UI";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+import SectionHeading from "../../UI/SectionHeading/SectionHeading";
+import PopupSlider from "../../UI/PopupSlider/PopupSlider";
+import Image from "../../UI/Image/Image";
+
+import * as images from "../../../assets/img/product/";
 
 import "./ProductSection.scss";
-import * as images from "../../../assets/img/product";
 
 const ProductSection = () => {
   const toggleImageGallery = ({ isVisible = true, activeIdx = 0 }) => {

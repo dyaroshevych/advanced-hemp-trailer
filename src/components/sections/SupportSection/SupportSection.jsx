@@ -1,9 +1,11 @@
 import React from "react";
 
-import { Section, Wrapper } from "../../../hoc";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
 
 import "./SupportSection.scss";
-import { supportBgJpg, supportMobileBgJpg } from "../../../assets/img";
+import supportBgJpg from "../../../assets/img/support-bg.jpg";
+import supportMobileBgJpg from "../../../assets/img/support-mobile-bg.jpg";
 
 const SupportSection = () => (
   <Section

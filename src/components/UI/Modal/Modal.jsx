@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./Modal.scss";
+import Backdrop from "../Backdrop/Backdrop";
 
-import { Backdrop } from "../";
+import "./Modal.scss";
 
 const Modal = ({ isVisible, toggleVisibility, children }) => {
   return (
@@ -11,6 +11,7 @@ const Modal = ({ isVisible, toggleVisibility, children }) => {
       <div className="Modal" isvisible={String(isVisible)}>
         <button
           className="Modal_closeButton"
+          aria-label="close popup"
           onClick={toggleVisibility}
         ></button>
         {children}

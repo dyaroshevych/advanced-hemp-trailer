@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import { Modal } from "../";
+import Modal from "../Modal/Modal";
 
 import "./PopupSlider.scss";
 
@@ -34,12 +34,14 @@ const PopupSlider = ({ isVisible, toggleVisibility, slides, activeIdx }) => {
         <div className="PopupSlider_controls">
           <button
             className="PopupSlider_controlButton"
+            aria-label="previous slide"
             onClick={(event) => moveSlide(event, -1)}
           >
             <FaChevronLeft />
           </button>
           <button
             className="PopupSlider_controlButton"
+            aria-label="next slide"
             onClick={(event) => moveSlide(event, 1)}
           >
             <FaChevronRight />

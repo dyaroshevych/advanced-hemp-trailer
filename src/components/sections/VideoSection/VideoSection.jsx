@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 
-import { Section, Wrapper } from "../../../hoc";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+
+import * as videos from "../../../assets/img/videos/";
 
 import "./VideoSection.scss";
-import * as videos from "../../../assets/img/videos";
 
 const data = [
   {

@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
 
-import { Wrapper } from "../../../hoc";
-import { Modal, Button, Form, Logo, ContactInfo } from "../../UI";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+import Modal from "../../UI/Modal/Modal";
+import Button from "../../UI/Button/Button";
+import Form from "../../UI/Form/Form";
+import Logo from "../../UI/Logo/Logo";
+import ContactInfo from "../../UI/ContactInfo/ContactInfo";
 
 import "./Navigation.scss";
 

@@ -1,11 +1,13 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-import { Section, Wrapper } from "../../../hoc";
-import { SectionHeading } from "../../UI";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+import SectionHeading from "../../UI/SectionHeading/SectionHeading";
+
+import * as icons from "../../../assets/img/how-it-works/";
 
 import "./HowItWorksSection.scss";
-import * as icons from "../../../assets/img/how-it-works";
 
 const HowItWorksSection = () => {
   const items = [

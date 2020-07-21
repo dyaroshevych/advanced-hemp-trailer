@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
 
-import { Section, Wrapper } from "../../../hoc";
-import { SectionHeading, PopupSlider, Image } from "../../UI";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+import SectionHeading from "../../UI/SectionHeading/SectionHeading";
+import PopupSlider from "../../UI/PopupSlider/PopupSlider";
+import Image from "../../UI/Image/Image";
+
+import * as images from "../../../assets/img/about/";
 
 import "./AboutSection.scss";
-import * as images from "../../../assets/img/about";
 
 const AboutSection = () => {
   const toggleImageGallery = ({ isVisible = true, activeIdx = 0 }) => {

@@ -1,10 +1,12 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-import { Section, Wrapper } from "../../../hoc";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+
+import headerBgJpg from "../../../assets/img/header-bg.jpg";
 
 import "./Header.scss";
-import { headerBgJpg } from "../../../assets/img";
 
 const Header = () => (
   <Section

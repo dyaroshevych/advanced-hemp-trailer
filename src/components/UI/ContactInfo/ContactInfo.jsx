@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 
-import { ContactContext } from "../../../context";
+import ContactContext from "../../../context/ContactContext";
 
 import "./ContactInfo.scss";
 
@@ -15,6 +15,7 @@ const ContactInfo = ({ className = "", data }) => {
           <Fade delay={idx * 100}>
             <a
               className="ContactInfo_link"
+              aria-label={contactItem}
               href={contactData[contactItem].link}
               rel="noopener noreferrer"
               target="_blank"

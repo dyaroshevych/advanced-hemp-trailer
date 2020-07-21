@@ -1,7 +1,8 @@
 import React from "react";
 
-import { Section, Wrapper } from "../../../hoc";
-import { ContactInfo } from "../../UI";
+import Section from "../../../hoc/Section/Section";
+import Wrapper from "../../../hoc/Wrapper/Wrapper";
+import ContactInfo from "../../UI/ContactInfo/ContactInfo";
 
 import "./Footer.scss";
 
