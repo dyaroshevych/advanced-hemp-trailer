@@ -1,0 +1,2 @@
+(this["webpackJsonpadvanced-hemp-dryer"]=this["webpackJsonpadvanced-hemp-dryer"]||[]).push([[10],{101:function(e,a,t){"use strict";t.r(a);var n=t(0),o=t.n(n),c=t(7),r=t(6),s=t(12);t(88);a.default=function(){return o.a.createElement(c.a,{className:"Footer",id:"footer"},o.a.createElement(r.a,{className:"Footer_content"},o.a.createElement(s.a,{className:"Footer_links",data:["phone","email","location"]}),o.a.createElement(s.a,{className:"Footer_social",data:["linkedin","facebook","twitter","instagram"]})))}},88:function(e,a,t){}}]);
+//# sourceMappingURL=10.70f492b5.chunk.js.map
